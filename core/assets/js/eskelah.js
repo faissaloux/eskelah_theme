@@ -362,11 +362,11 @@ window.addEventListener('load', function(e) {
 
 
 
-jQuery("body").queryLoader2({
-    barColor: "#FFC801",
-    backgroundColor: "#1c2222",
-    percentage: true,
-    barHeight: 2,
-    completeAnimation: "grow",
-    minimumTime: 100
-});
+// jQuery("body").queryLoader2({
+//     barColor: "#FFC801",
+//     backgroundColor: "#1c2222",
+//     percentage: true,
+//     barHeight: 2,
+//     completeAnimation: "grow",
+//     minimumTime: 100
+// });
