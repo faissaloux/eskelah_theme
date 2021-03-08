@@ -75,11 +75,7 @@ span.iconic:hover {
         <div class="col-md-3">
             <span class="iconic"><img src="<?php echo $vectors; ?>/contact/4.png" alt=""></span>
             <h1 class="title">الهاتف</h1>
-<<<<<<< HEAD
             <p class="desc" dir='ltr'>+966567173705</p>
-=======
-            <p class="desc " dir='ltr'>+966567173705</p>
->>>>>>> 50ae942aa840c62a8156972eac05f12f168895ba
 
             <a href='tel:+966567173705'> <span>اتصل بنا</span></a>
 
@@ -158,65 +154,6 @@ span.iconic:hover {
             </form>
 
             <img src="<?php echo $vectors; ?>/contact/newsletter-bg.png" alt="">
-<<<<<<< HEAD
-            =======
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="form-group">
-                        <input type="text" placeholder="الإسم" id="contact_full_name" class='form-control inpt' />
-                    </div>
-                </div>
-=======
-          <div class="col-md-12">
-           <div class="row">
-            <div class="form-group">
-                <input type="text" placeholder="الإسم" id="contact_full_name" class='form-control inpt'  />
-            </div>
-            </div>
-           </div>
-           <div class="col-md-6">
-           <div class="row">
-            <div class="form-group">
-                <input type="text" placeholder="البريد الإلكتروني" id="contact_email" class='form-control inpt'  />
-            </div>
-            </div>
-           </div>
-           <div class="col-md-6 padding-right-input">
-           <div class="row">
-            <div class="form-group">
-                <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt'  />
-            </div>
->>>>>>> 50ae942aa840c62a8156972eac05f12f168895ba
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="form-group">
-                        <input type="text" placeholder="البريد الإلكتروني" id="contact_email"
-                            class='form-control inpt' />
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 padding-right-input">
-                <div class="row">
-                    <div class="form-group">
-                        <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt' />
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="form-group">
-                        <textarea class='form-control inpt txtarear' id="contact_message" placeholder="الرسالة"
-                            cols="30" rows="10"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class="form-group text-center"><button class="btn btn">ارسال</button></div>
-            <div class="sendresult"></div>
-<<<<<<< HEAD
-            >>>>>>> d40c39463f5d778115db06576eb415e6bb23fe9a
-=======
->>>>>>> 50ae942aa840c62a8156972eac05f12f168895ba
 
         </div>
     </div>
