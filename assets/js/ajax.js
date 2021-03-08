@@ -51,8 +51,8 @@ jQuery(function($){
                     <div class="col-md-6 hidden-xs">
                         <div class='frame' >
                             <img src='${project.thumbnail}'/>
-                            <a href="javascript:;" class="show-project-video" data-toggle="modal" data-target="#video_project" data-video="${project.video_link}">
-                                ${project.video_link ? `<span class="videoplay"><img src="${project.vectors}play.png"/></span>`:``}
+                            <a href="${project.permalink}">
+                                <span class="videoplay"><img src="${project.vectors}play.png"/></span>
                             </a>
                         </div>
                     </div>

@@ -389,6 +389,7 @@ function portfolio_reload_php(){
 
 		if($category_id == 0){
 			$post->thumbnail 	= get_the_post_thumbnail_url( $post->ID );
+			$post->permalink	= get_permalink( $post->ID );
 			$post->video_link	= $meta_data['video_link'];
 			$post->vectors		= $vectors;
 			array_push($result, $post);
@@ -396,6 +397,7 @@ function portfolio_reload_php(){
 			$category = get_the_terms( $post->ID, 'project_categories' );
 			if($category && $category[0]->term_id == $category_id){
 				$post->thumbnail 	= get_the_post_thumbnail_url( $post->ID );
+				$post->permalink	= get_permalink( $post->ID );
 				$post->video_link	= $meta_data['video_link'];
 				$post->vectors		= $vectors;
 				array_push($result, $post);
