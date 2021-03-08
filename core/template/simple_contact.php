@@ -16,14 +16,14 @@
            <div class="col-md-6">
            <div class="row">
             <div class="form-group">
-                <input type="text" placeholder="البريد الإلكتروني" id="contact_email" class='form-control inpt raleway'  />
+                <input type="text" placeholder="البريد الإلكتروني" id="contact_email" class='form-control inpt'  />
             </div>
             </div>
            </div>
            <div class="col-md-6 padding-right-input">
            <div class="row">
             <div class="form-group">
-                <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt raleway'  />
+                <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt'  />
             </div>
             </div>
            </div>
