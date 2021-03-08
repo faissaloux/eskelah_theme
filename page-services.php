@@ -60,7 +60,7 @@
            
             <div class="col-md-4">
                 <div class="serviceBox">
-                    <div class="serviceImg"><img src="<?php echo $vectors; ?>/services2/XMLID_1069_.png" alt=""></div>
+                    <div class="serviceImg visual-production-serviceImg"><img src="<?php echo $vectors; ?>/services2/XMLID_1069_.png" alt=""></div>
                     <h3 class="serviceTitle">الإنتاج المرئي</h3>
                     <p class="serviceDescription">
                         نعاونك على حبك ظهورك المرئي، من الفكرة إلى الإخراج، بأفضل الطرق المتبعة في الكتابة و الإنتاج و بأحدث المعدات.

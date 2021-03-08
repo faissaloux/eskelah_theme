@@ -20,7 +20,7 @@
     <!-- about us eskelah team -->
     <section class="about-page-tite">
         <div class="col-md-12 text-center">
-            <h1 class="main-title nobefore "><span class='eskelah undelined'>طاقمنا </span></h1>
+            <h1 class="main-title nobefore" style="font-size: 35px;"><span class='eskelah undelined'>طاقمنا </span></h1>
             <h3 class="text-center">
                 بعزيمة الغطاسين، و حذاقة النواخذة!<br>
                 يعمل ملاحو إسكلة : لإيصال مشروعك إلى وجهته الصحيحة.
@@ -38,7 +38,7 @@
                 
                 <div class="col-md-4">
                     <div class="team-box text-center">
-                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/abdullah1.jpg" alt="Abdullah"></div>
+                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/Abdullah.jpg" alt="Abdullah"></div>
                         <div class="team-info">
                             <h3>عبد الله التركي</h3>
                             <h4>المؤسس و المدير التنفيذي</h4>
@@ -49,7 +49,7 @@
                         
                 <div class="col-md-4">
                     <div class="team-box text-center">
-                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/ola5.jpg" alt="Ola"></div>
+                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/Ola.jpg" alt="Ola"></div>
                         <div class="team-info">
                             <h3>علا عامر</h3>
                             <h4>مدير قسم التسويق الرقمي</h4>
@@ -60,7 +60,7 @@
                         
                     <div class="col-md-4">
                     <div class="team-box text-center">
-                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/bassam2.jpg" alt="Bassam"></div>
+                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/Bassam.jpg" alt="Bassam"></div>
                         <div class="team-info">
                             <h3>بسام الشرعبي</h3>
                             <h4>مدير قسم الإنتاج المرئي</h4>
@@ -71,7 +71,7 @@
 
                     <div class="col-md-4">
                     <div class="team-box text-center">
-                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/bayader3.jpg" alt="Bayader"></div>
+                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/Bayader.jpg" alt="Bayader"></div>
                         <div class="team-info">
                             <h3>بيادر ثامر</h3>
                             <h4>مدير محتوى</h4>
@@ -82,7 +82,7 @@
 
                 <div class="col-md-4">
                     <div class="team-box text-center">
-                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/3K4A1444-1.jpg" alt="Said"></div>
+                        <div class="team-avatar"><img src="<?php echo $vectors ?>/team/Saeed.jpg" alt="Saeed"></div>
                         <div class="team-info">
                             <h3>سعيد قايد</h3>
                             <h4>مدير إنتاج</h4>
@@ -113,9 +113,9 @@
     <!-- Eskelah work process -->
     <section class="work-steps">
      <div class="work-steps-title text-center">
-         <h6>
-             ما هي توليفة إبداعنا؟
-         </h6>
+         <h2 style="font-size: 35px;">
+             ما هي توليفة<span class="work-steps eskelah undelined"> إبداعنا</span>؟
+         </h2>
      </div>
      
      <div class="container">
@@ -123,26 +123,26 @@
        <div class="col-md-4">
            <div class="process-box">
                <span class="ProcessNumber raleway">1</span>
-               <h2 class="ProcessTitle"> البحث </h2>
+               <h3 class="ProcessTitle"> البحث </h3>
                <p class="ProcessPar"> 
-               لكل منا مصادره، و طرق استلهامه في البحث و الحبك.<br>
-               هنا نجمع كافة التفاصيل المرتبطة بمشروعك: لنخرج بأفضل التصورات.
+               لكل منا مصادره، و طرق استلهامه في البحث و الحبك.
+               هنا نجمع كافة التفاصيل المرتبطة بمشروعك: لنخرج بأفضل التصورات،
                </p>
            </div>
        </div>
        <div class="col-md-4">
            <div class="process-box">
                <span class="ProcessNumber raleway">2</span>
-               <h2 class="ProcessTitle">الخبرة</h2>
+               <h3 class="ProcessTitle">الخبرة</h3>
                <p class="ProcessPar">
-                   شكلت تحدياتنا التي ركبنا موجتها خبرة تعادل 50 عاما في مختلف القطاعات و بمختلف الكرق و الأدوات!
+                   شكلت تحدياتنا التي ركبنا موجتها خبرة تعادل <span class="nexa">50</span> عاما في مختلف القطاعات و بمختلف الكرق و الأدوات!
                </p>
            </div>
        </div>
        <div class="col-md-4 last-how">
            <div class="process-box">
                <span class="ProcessNumber raleway">3</span>
-               <h2 class="ProcessTitle"> المعرفة </h2>
+               <h3 class="ProcessTitle"> المعرفة </h3>
                <p class="ProcessPar">
                    نمتلك خلفية متينة في مجال عملنا تمكنك من عكس هويتك بطرق احترافية و إيصال رسائلك إلى الفئة المستهدفة بالاستمالة الملائمة.
                </p>
