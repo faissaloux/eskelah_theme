@@ -39,6 +39,21 @@
     }
 }
 
+@keyframes smoothWidth{
+    0%{width: 40px;}
+    100%{width: 180px;}
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        right:-20px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -15175,7 +15190,7 @@ span.eskelah {
 }
 
 .take_action a:first-child {
-    padding: 17px 30px;
+    padding: 18px 31px;
     border-radius: 100px;
     color: #000;
     font-size: 14px;
@@ -15183,6 +15198,18 @@ span.eskelah {
     position: relative;
     margin-left: 14px;
     border: 1px #000 solid;
+    overflow: hidden;
+}
+
+.take_action a:first-child::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    top: -1px;
+    bottom: -2px;
+    right: -200px;
+    background-color: #000;
+    z-index: -1;
 }
 
 .take_action {
@@ -15201,7 +15228,7 @@ section.main-hero {
 }
 
 section.clients {
-    background: #ffbe2e;
+    background: #000;
     width: 100%;
     display: block;
     padding: 30px 0;
@@ -16869,7 +16896,7 @@ span.eskelah {
 }
 
 .take_action a:first-child {
-    padding: 17px 30px;
+    padding: 18px 31px;
     border-radius: 100px;
     color: #000;
     font-size: 14px;
@@ -16895,7 +16922,7 @@ section.main-hero {
 }
 
 section.clients {
-    background: #ffbe2e;
+    background: #000;
     width: 100%;
     display: block;
     padding: 30px 0;
@@ -27255,7 +27282,7 @@ span.eskelah {
 }
 
 .take_action a:first-child {
-    padding: 17px 30px;
+    padding: 18px 31px;
     border-radius: 100px;
     color: #000;
     font-size: 14px;
@@ -27281,7 +27308,7 @@ section.main-hero {
 }
 
 section.clients {
-    background: #ffbe2e;
+    background: #000;
     width: 100%;
     display: block;
     padding: 30px 0;
@@ -27819,6 +27846,7 @@ section.why-esklah .title-section h2 {
 .owl-carousel .owl-stage-outer {
     position: relative;
     overflow: hidden;
+    direction: ltr;
     -webkit-transform: translate3d(0, 0, 0)
 }
 
@@ -30819,7 +30847,7 @@ footer .title {
 
 .categories-switchers.flex-row {
     justify-content: space-around;
-    width: 60%;
+    width: 40%;
     margin-bottom: 40px;
     z-index: 99999;
     position: relative;
@@ -30847,8 +30875,37 @@ footer .title {
     border-radius: 30px;
 }
 
+.navbar .start-project-btn a {
+    color: #FFF;
+}
+
+@keyframes rightToLeft{
+    0% {right: -200px;}
+    100% {right: 0;}
+}
+
+@keyframes pulse{
+    0% {opacity: 0;}
+    5% {opacity: .6;}
+    15% {opacity: 1;}
+    20% {color: #FFF;}
+    60% {color: #000;}
+    80% {color: #FFF;}
+    90% {color: #000;}
+    100% {color: #FFF;}
+}
+
+.take_action a:first-child:hover::after {
+    animation: rightToLeft .5s;
+    right: 0;
+}
+
 .take_action a:first-child:hover {
-    background-color: #000;
+    opacity: 0;
+    z-index: 9999;
+    animation: pulse .5s;
+    animation-delay: .5s;
+    opacity: 1;
     color: #FFF;
 }
 
@@ -30982,7 +31039,9 @@ footer .title {
 }
 
 .service_home .icon-content a .text {
-    display: none;
+    position: absolute;
+    right: 60px;
+    opacity: 0;
 }
 
 .service_home .icon-content a:hover .plus {
@@ -30990,11 +31049,13 @@ footer .title {
 }
 
 .service_home .icon-content a:hover {
-    width: 200px;
+    animation: smoothWidth 2s;
+    width: 180px;
 }
 
 .service_home .icon-content a:hover .text {
-    display: block;
+    animation: fadeIn 2s;
+    opacity: 1;
 }
 
 .service_home .icon-content figure {
@@ -31227,6 +31288,20 @@ section.post p {
     height: 100%;
 }
 
+.new-member .you{
+    font-size: 40px;
+}
+
+.new-member .text{
+    display: block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.light{
+    font-family: 'light';
+}
+
 .sales-team-new {
     height: 100%;
     cursor: pointer;
@@ -31311,4 +31386,21 @@ span.work-steps.eskelah.undelined:after {
 
 #qLoverlay{
     display: none;
+}
+
+.ctc_s_7_icon_padding.ctc-analytics {
+    background-color: #000 !important;
+}
+
+body .ht-ctc.style-7:hover .ctc_s_7_icon_padding {
+    background-color: #000 !important;
+}
+
+path#htwaicon-chat {
+    fill: #ffbe2e !important;
+}
+
+p.ctc_s_7_cta.ctc-analytics.ht-ctc-cta.ht-ctc-cta-hover {
+    background-color: #000 !important;
+    color: #ffbe2e !important;
 }
