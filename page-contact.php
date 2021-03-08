@@ -75,11 +75,7 @@ span.iconic:hover {
         <div class="col-md-3">
             <span class="iconic"><img src="<?php echo $vectors; ?>/contact/4.png" alt=""></span>
             <h1 class="title">الهاتف</h1>
-<<<<<<< HEAD
             <p class="desc nexa" dir='ltr'>+966567173705</p>
-=======
-            <p class="desc" dir='ltr'>+966567173705</p>
->>>>>>> 48250812f1e216a11011e3544e570e018fc564ee
 
             <a href='tel:+966567173705'> <span>اتصل بنا</span></a>
 
