@@ -2,6 +2,7 @@
 
 
 <?php global $theme_setting;  ?>
+<?php global $vectors;  ?>
 
 
 <?php get_main_header(); ?>  
@@ -39,7 +40,7 @@
             هذا ما ستأخذه من عملك معنا في الإنتاج المرئي و التسويق الرقمي
         </p>
         <div class="take_action">
-            <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">Video</a>
+            <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">شاهد show real</a>
             <a id="demandeNow" href="javascript:;" class="btn">اطلب عرض</a>
         </div>
     </div>
@@ -72,21 +73,21 @@
                 </div> 
             </div>
             <div class="col-md-12 about-left-bottom">
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-right" style="padding-right: 0;">
                     <div class="about-left-stats">
-                        <span class="col-12" id="first-counter">50</span>
+                        <span class="col-12 nexa" id="first-counter">50</span>
                     </div>
                     <div>تحد كون خبرتنا</div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-right">
                     <div class="about-left-stats">
-                        <span class="col-12" id="second-counter">44</span>
+                        <span class="col-12 nexa" id="second-counter">44</span>
                     </div>
                     <div>شريك راض</div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-md-4 text-right">
                     <div class="about-left-stats">
-                        <span class="col-12" id="third-counter">10</span>
+                        <span class="col-12 nexa" id="third-counter">10</span>
                     </div>
                     <div>قطاعات مدركينها!</div>
                 </div>
@@ -106,38 +107,21 @@
 
 <section class="service_home circle_shape right_shape">
     <div class="container">
-        <div class="col-md-4">
+        <div class="col-md-12">
            <div class="service-home-content">
-                <h3 class="text-right">خدماتنا</h3>
-            <p class="text-right">
-                يعمل طاقمنا على رصيفين<br>
-                أساسيين في المرفأ
+                <h3 class="text-center">خدماتنا</h3>
+            <p class="text-center">
+                يعمل طاقمنا على ثلاث أرصفة أساسية<br>
+                 في المرفأ
             </p>
            </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-12" style="margin-top: 20px;">
 
-            <div class="col-lg-6">
+            <div class="col-lg-4">
                 <div class="icon-content">
-                    <figure><img src="https://eskelah.com/wp-content/uploads/2019/05/service1.png" alt="Image"></figure>
-                    <h3>رصيف التسويق الرقمي</h3>
-                    <small>
-                        <ul>
-                            <li>صناعة المحتوى الإبداعي</li>
-                            <li>صناعة الحملات الإعلانية</li>
-                            <li>إدارة منصات التواصل</li>
-                            <li>الترويج الرقمي</li>
-                        </ul>
-                    </small>
-                    <a href="/digital-marketing/">+</a>
-                </div>
-                <!-- end icon-content -->
-            </div>
-
-            <div class="col-lg-6">
-                <div class="icon-content">
-                    <figure><img src="https://eskelah.com/wp-content/uploads/2019/05/service2.png" alt="Image"></figure>
-                    <h3>رصيف الإنتاج المرئي</h3>
+                    <figure><img src="<?php echo $vectors; ?>/services2/XMLID_1069_.png" alt="Image"></figure>
+                    <h3> الإنتاج المرئي</h3>
                     <small>
                         <ul>
                             <li>الأفلام الإعلانية</li>
@@ -146,7 +130,49 @@
                             <li>الرسوم المتحركة</li>
                         </ul>
                     </small>
-                    <a href="/visual-production/">+</a>
+                    <a href="/visual-production/">
+                        <span class="plus">+</span>
+                        <span class="text">اعرف المزيد</span>
+                    </a>
+                </div>
+                <!-- end icon-content -->
+            </div>
+
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src="<?php echo $vectors; ?>/mainservice/01.png" alt="Image"></figure>
+                    <h3> التسويق الرقمي</h3>
+                    <small>
+                        <ul>
+                            <li>صناعة المحتوى الإبداعي</li>
+                            <li>صناعة الحملات الإعلانية</li>
+                            <li>إدارة منصات التواصل</li>
+                            <li>الترويج الرقمي</li>
+                        </ul>
+                    </small>
+                    <a href="/digital-marketing/">
+                        <span class="plus">+</span>
+                        <span class="text">اعرف المزيد</span>
+                    </a>
+                </div>
+                <!-- end icon-content -->
+            </div>
+
+            <div class="col-lg-4">
+                <div class="icon-content">
+                    <figure><img src="https://eskelah.com/wp-content/uploads/2019/05/service1.png" alt="Image"></figure>
+                    <h3>بناء الهوية التجارية</h3>
+                    <small>
+                        <ul>
+                            <li>صناعة الهوية البصرية و إعادة بنائها</li>
+                            <li>صناعة الإسم التجاري و تطويره</li>
+                            <li>تطوير دليل الهوية</li>
+                        </ul>
+                    </small>
+                    <a href="/digital-marketing/">
+                        <span class="plus">+</span>
+                        <span class="text">اعرف المزيد</span>
+                    </a>
                 </div>
                 <!-- end icon-content -->
             </div>
@@ -216,73 +242,95 @@
            <h3>جنود الخفاء الذي يخرجون الإبداع الى أرض الواقع</h3>
     </div>
     <div class="row">
-        <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar"><img src="<?php echo $vectors ?>/team/abdullah1.jpg" alt="Abdullah"></div>
-                <div class="team-info">
-                    <h3>عبد الله التركي</h3>
-                    <h4>المؤسس و المدير التنفيذي</h4>
-                    <p>أعاني من متلازمة إدمان العمل فأردد دائما "أنجز حتى أراك"</p>
+        <div class="row team-row">
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/Abdullah.jpg" alt="Abdullah"></figure>
+                    <div class="infos">
+                        <h6>عبد الله التركي</h6>
+                        <small>المؤسس و المدير التنفيذي</small>
+                    </div>
+                    <!-- end infos -->
                 </div>
+                <!-- end sales-team -->
+            </div>
+
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/Ola.jpg" alt="Ola"></figure>
+                    <div class="infos">
+                        <h6>علا عامر</h6>
+                        <small>مدير قسم التسويق الرقمي</small>
+                    </div>
+                    <!-- end infos -->
+                </div>
+                <!-- end sales-team -->
+            </div>
+
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/Bassam.jpg" alt="Bassam"></figure>
+                    <div class="infos">
+                        <h6>بسام الشرعبي</h6>
+                        <small>مدير قسم الإنتاج المرئي</small>
+                    </div>
+                    <!-- end infos -->
+                </div>
+                <!-- end sales-team -->
+            </div>
+
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/Bayader.jpg" alt="Bayader"></figure>
+                    <div class="infos">
+                        <h6>بيادر ثامر</h6>
+                        <small>مدير محتوى</small>
+                    </div>
+                    <!-- end infos -->
+                </div>
+                <!-- end sales-team -->
             </div>
         </div>
-                
-        <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar"><img src="<?php echo $vectors ?>/team/ola5.jpg" alt="Ola"></div>
-                <div class="team-info">
-                    <h3>علا عامر</h3>
-                    <h4>مدير قسم التسويق الرقمي</h4>
-                    <p>جائعة طوال الوقت للتجديد حاول أن تكون مثل Google عند الحديث معي!</p>
+
+        <div class="row team-row" style="margin-top: 20px;">
+
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/Saeed.jpg" alt="Saeed"></figure>
+                    <div class="infos">
+                        <h6>سعيد قايد</h6>
+                        <small>مدير إنتاج</small>
+                    </div>
+                    <!-- end infos -->
                 </div>
+                <!-- end sales-team -->
             </div>
-        </div> 
-                
-            <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar"><img src="<?php echo $vectors ?>/team/bassam2.jpg" alt="Bassam"></div>
-                <div class="team-info">
-                    <h3>بسام الشرعبي</h3>
-                    <h4>مدير قسم الإنتاج المرئي</h4>
-                    <p>أعاني من هواجس مرئية تيقظني منتصف الليل لحبكها!</p>
+
+            <div class="team-col col-md-2">
+                <div class="sales-team">
+                    <figure><img src="<?php echo $vectors ?>/team/default-female-avatar.jpg" alt="Ruba"></figure>
+                    <div class="infos">
+                        <h6>ربى الغامدي</h6>
+                        <small>مدير مشاريع</small>
+                    </div>
+                    <!-- end infos -->
                 </div>
+                <!-- end sales-team -->
+            </div>
+
+            <div class="team-col col-md-2">
+                <div class="sales-team sales-team-new" id="sendcv">
+                    <div class="infos new-member">
+                        <h6>
+                            أنت<br>
+                            أرسل لنا سيرتك الذاتية
+                        </h6>
+                    </div>
+                    <!-- end infos -->
+                </div>
+                <!-- end sales-team -->
             </div>
         </div>
-
-            <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar"><img src="<?php echo $vectors ?>/team/bayader3.jpg" alt="Bayader"></div>
-                <div class="team-info">
-                    <h3>بيادر ثامر</h3>
-                    <h4>مدير محتوى</h4>
-                    <p>الكلمات بمثابة ألغاز أحب صياغتها لإبهارك بنتائجها!</p>
-                </div>
-            </div>
-        </div> 
-
-        <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar"><img src="<?php echo $vectors ?>/team/3K4A1444-1.jpg" alt="Said"></div>
-                <div class="team-info">
-                    <h3>سعيد قايد</h3>
-                    <h4>مدير إنتاج</h4>
-                    <p>ألاحظ التفاصيل بعين صقرية أتغدى على الفن يوميا!</p>
-                </div>
-            </div>
-        </div> 
-
-        <div class="col-md-4">
-            <div class="team-box text-center">
-                <div class="team-avatar">
-                    <img src="<?php echo $vectors ?>/team/default-female-avatar.jpg" alt="Ruba">
-                </div>
-                <div class="team-info">
-                    <h3>ربى الغامدي</h3>
-                    <h4>مدير مشاريع</h4>
-                    <p>أعاني من حكة التجويد، سأسعد بك إن كنت تتفهم ملاحظاتي!</p>
-                </div>
-            </div>
-        </div> 
         
     </div>
 </div>

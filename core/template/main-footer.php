@@ -37,13 +37,12 @@
                 </div>
                 <div class="col-md-3 contact-tool flex-row">
                     <div class="text-center">
-                        <span class="title" dir="ltr"><a href="tel:+966567173705">+966567173705</a></span>
+                        <span class="title nexa" dir="ltr"><a href="tel:+966567173705">+966567173705</a></span>
                     </div>
                 </div>
                 <div class="col-md-3 contact-tool flex-row">
                     <div class="text-center">
                         <span class="title">من السبت إلى الخميس</span>
-                        <p class="title">10AM-6PM</p>
                     </div>
                 </div>
                 <div class="col-md-3 contact-tool flex-row">

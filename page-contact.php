@@ -52,14 +52,14 @@
         <div class="col-md-3">
             <span class="iconic"><img src="<?php echo $vectors; ?>/contact/3.png" alt=""></span>
             <h1 class="title">البريد الإلكتروني</h1>
-            <p class="desc raleway">info@eskelah.com</p>
+            <p class="desc">info@eskelah.com</p>
             <a href="mailto:info@eskelah.com"><span>تواصل معنا</span></a>
             
         </div>
         <div class="col-md-3">
             <span class="iconic"><img src="<?php echo $vectors; ?>/contact/4.png" alt=""></span>
             <h1 class="title">الهاتف</h1>
-            <p class="desc raleway " dir='ltr'>+966567173705</p>
+            <p class="desc " dir='ltr'>+966567173705</p>
             
             <a href='tel:+966567173705'> <span>اتصل بنا</span></a>
 
@@ -111,14 +111,14 @@
            <div class="col-md-6">
            <div class="row">
             <div class="form-group">
-                <input type="text" placeholder="البريد الإلكتروني" id="contact_email" class='form-control inpt raleway'  />
+                <input type="text" placeholder="البريد الإلكتروني" id="contact_email" class='form-control inpt'  />
             </div>
             </div>
            </div>
            <div class="col-md-6 padding-right-input">
            <div class="row">
             <div class="form-group">
-                <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt raleway'  />
+                <input type="text" id="contact_phone" placeholder="الرقم" class='form-control inpt'  />
             </div>
             </div>
            </div>
