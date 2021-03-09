@@ -29,28 +29,6 @@
                     </div>                
                 </div>
             </div>
-            <div class="col-md-12 FooterInfo FooterContact" style="color: #FFF">
-                <div class="col-md-3 contact-tool flex-row">
-                    <div class="text-center">
-                        <span class="title"><a href="mailto:info@eskelah.com">info@eskelah.com</a></span>
-                    </div>
-                </div>
-                <div class="col-md-3 contact-tool flex-row">
-                    <div class="text-center">
-                        <span class="title nexa" dir="ltr"><a href="tel:+966567173705">+966567173705</a></span>
-                    </div>
-                </div>
-                <div class="col-md-3 contact-tool flex-row">
-                    <div class="text-center">
-                        <span class="title">من السبت إلى الخميس</span>
-                    </div>
-                </div>
-                <div class="col-md-3 contact-tool flex-row">
-                    <div class="text-center">
-                        <span class="title">السعودية ، جدة</span>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </footer>

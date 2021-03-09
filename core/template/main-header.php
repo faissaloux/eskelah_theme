@@ -117,25 +117,18 @@
 
 <?php  if(is_page( 'visual-production' )): ?>
   <option value="الأفلام الدعائية">الأفلام الدعائية</option>
-                   <option value="الأفلام الوثائقية">الأفلام الوثائقية</option>
-                   <option value="الرسوم المتحركة">الرسوم المتحركة</option>
-                   <option value="التصوير الفوتوغرافي">  التصوير الفوتوغرافي</option>
-                   <option value="الإنتاج السينمائي">الإنتاج السينمائي</option>
-<option value='خدمات الانتاج المرئي'>خدمات الانتاج المرئي</option>
+  <option value="الأفلام الوثائقية">الأفلام الوثائقية</option>
+  <option value="الرسوم المتحركة">الرسوم المتحركة</option>
+  <option value="التصوير الفوتوغرافي">  التصوير الفوتوغرافي</option>
+  <option value="الإنتاج السينمائي">الإنتاج السينمائي</option>
+  <option value='خدمات الانتاج المرئي'>خدمات الانتاج المرئي</option>
 <?php  endif; ?>
 
 
 <?php  if(!is_page( 'visual-production' ) and !is_page( 'digital-marketing' ) ): ?>
- <option value="إدارة مواقع التواصل">إدارة مواقع التواصل</option>
- <option value="كتابة المحتوى الإبداعي">كتابة المحتوى الإبداعي</option>
-
- <option value="الترويج الرقمي">الترويج الرقمي</option>
-  <option value="الأفلام الدعائية">الأفلام الدعائية</option>
-                   <option value="الأفلام الوثائقية">الأفلام الوثائقية</option>
-                   <option value="الرسوم المتحركة">الرسوم المتحركة</option>
-                   <option value="التصوير الفوتوغرافي">  التصوير الفوتوغرافي</option>
-                   <option value="الإنتاج السينمائي">الإنتاج السينمائي</option>
-<option value='خدمات التسويق الرقمي'>خدمات التسويق الرقمي</option>
+  <option value="الإنتاج المرئي">الإنتاج المرئي</option>
+  <option value="التسويق الرقمي">التسويق الرقمي</option>
+  <option value="بناء الهوية التجارية">بناء الهوية التجارية</option>
 <?php  endif; ?>
 
 
