@@ -66,7 +66,7 @@
             </div>
             <div class="col-md-4">
 
-                <img src="<?php echo $vectors; ?>/about/book.png" alt="">
+                <img class="book" src="<?php echo $vectors; ?>/about/book.svg" alt="">
             </div>
         </div>
     </div>
@@ -81,28 +81,37 @@
             <h2>كيف ستبحر معنا؟</h2>
         </div>
         <div class="number_numbers">
-            <div class="col-md-8 auto-center text-center">
+            <div class="col-md-12 auto-center text-center" style="position: relative;">
                 <div class="col-md-4">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
                     <span class="numbered raleway">1</span>
-                    <h2>التحضير</h2>
-                    <p>
-                        نتعرف عليك عن قرب، نعقد جلسات عصف الذهن. لنحدد وجهة الإبحار جيدا من خلال عروضنا الفنية
-                        المتكاملة.
-                    </p>
+                    <div class="qualities-text">
+                        <h2>التحضير</h2>
+                        <p>
+                            نتعرف عليك عن قرب، نعقد جلسات عصف الذهن. لنحدد وجهة الإبحار جيدا من خلال عروضنا الفنية
+                            المتكاملة.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
                     <span class="numbered raleway">2</span>
-                    <h2>الإنجاز</h2>
-                    <p>
-                        ننتج هنا مخرجات شديدة الجاذبية، تعكس روح علامتك و تلمس فئتك المستهدفة.
-                    </p>
+                    <div class="qualities-text">
+                        <h2>الإنجاز</h2>
+                        <p>
+                            ننتج هنا مخرجات شديدة الجاذبية، تعكس روح علامتك و تلمس فئتك المستهدفة.
+                        </p>
+                    </div>
                 </div>
                 <div class="col-md-4">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
                     <span class="numbered raleway">3</span>
-                    <h2>النجاح</h2>
-                    <p>
-                        نطلق هنا نتائجنا، على وسائل التواصل المختلفة، وفق استراتيجية ملائمة و خطة واضحة.
-                    </p>
+                    <div class="qualities-text">
+                        <h2>النجاح</h2>
+                        <p>
+                            نطلق هنا نتائجنا، على وسائل التواصل المختلفة، وفق استراتيجية ملائمة و خطة واضحة.
+                        </p>
+                    </div>
                 </div>
             </div>
 
@@ -244,23 +253,12 @@
 <section class="moreAbout hidden-xs">
     <div class="container">
 
-        <div class="col-md-2">
-            <img class="catcat" style='display:inline-block;width:170px;' src="<?php echo $vectors; ?>cat.png" alt="">
-        </div>
-        <div class="col-md-5">
+        <img class="catcat" src="<?php echo $vectors; ?>cat.svg" alt="">
+        <div class="col-md-12">
             <h3 class="moreTitle">نعلم أن الفضول قتل قطة. لكن هذا قدَرنا</h3>
             <p class="moreDesc">
                 فضولنا هي شعلتنا الأولى في معرفة كل شيء. طاقمنا فضول بشكل متعب، يحب أن يتعرف على جديد مجاله وعلى أشخاص
                 جدد مميزين يعمل معهم، هم ايضاً فضوليين بمعرفتك، لا تكن مجرد رقم زيارة سُجل في الموقع دون أن تتواصل معنا
-            </p>
-        </div>
-
-        <div class="col-md-5">
-            <h3 class="moreTitle">نعمل بكل حبية.</h3>
-            <p class="moreDesc">
-                بغض النظر عن المشاجرات الخلاّقة بين الطاقم أثناء اجتماعات العصف الذهني، نعمل في بيئة لطيفة جداً وسط فريق
-                عمل ودود يجعلنا أكثر رحابة في استقبال جميع الأصدقاء. وإن لم تصدقنا اسمح لنا أن نعزمك على كوب قهوة في
-                مكتبنا نتفاهم معك فيها
             </p>
         </div>
 

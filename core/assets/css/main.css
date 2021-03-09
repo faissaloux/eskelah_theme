@@ -5533,7 +5533,7 @@ button.list-group-item-danger.active:focus {
 
 .panel-footer {
     padding: 10px 15px;
-    background-color: #f5f5f5;
+    background-color: #000;
     border-top: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px
@@ -14193,35 +14193,21 @@ section.eskelah_numbers {
     padding-top: 95px
 }
 
-section.eskelah_numbers:after {
-    color: #fff;
-    bottom: -46px;
-    left: -20px;
-    width: 240px;
-    height: 250px;
-    content: '';
-    position: absolute;
-    z-index: 200;
-    background-image: url(../vectors/about/manara.png);
-    background-repeat: no-repeat
-}
-
 section.eskelah_numbers {
     position: relative
 }
 
 span.numbered.raleway {
     font-size: 130px;
-    color: #ffbe2e61;
+    color: #000;
     position: absolute;
     width: 100%;
     text-align: center;
-    left: 0;
-    right: 0;
+    right: -98px;
     margin-left: auto;
     margin-right: auto;
-    top: -60px;
-    z-index: -10
+    top: -14px;
+    z-index: 2;
 }
 
 .number_title {
@@ -14292,7 +14278,7 @@ ul.last-footer_menu li a {
 }
 
 footer {
-    background-color: #232427;
+    background-color: #000;
     padding: 65px 0 20px 0;
     overflow: hidden;
     width: 100%;
@@ -14332,19 +14318,6 @@ footer {
 
 .footerCallToAction {
     margin-bottom: 75px
-}
-
-footer:after {
-    position: absolute;
-    color: #fff;
-    bottom: -102px;
-    left: 0;
-    width: 110px;
-    height: 150px;
-    background-image: url(../vectors/footer/last_ship.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: ''
 }
 
 .demande-Form {
@@ -14902,6 +14875,13 @@ section.who_is_eskelah {
 
 section.EbookDownload {
     background: #ffbe2e
+}
+
+.EbookDownload img.book{
+    width: 700px;
+    position: absolute !important;
+    top: 0;
+    left: -260px;
 }
 
 section.moreAbout {
@@ -15894,38 +15874,25 @@ section.about-page-tite {
 section.eskelah_numbers {
     text-align: center;
     padding: 65px 1px;
-    padding-top: 95px
+    padding-top: 95px;
+    height: 440px;
 }
 
 section.eskelah_numbers:after {
     color: #fff;
-    bottom: -46px;
-    left: -20px;
-    width: 240px;
-    height: 250px;
+    top: -33px;
+    left: -100px;
+    width: 500px;
+    height: 370px;
     content: '';
     position: absolute;
     z-index: 200;
-    background-image: url(../vectors/about/manara.png);
+    background-image: url(../vectors/about/sun.svg);
     background-repeat: no-repeat
 }
 
 section.eskelah_numbers {
     position: relative
-}
-
-span.numbered.raleway {
-    font-size: 130px;
-    color: #ffbe2e61;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: -60px;
-    z-index: -10
 }
 
 .number_title {
@@ -15998,7 +15965,7 @@ ul.last-footer_menu li a {
 }
 
 footer {
-    background-color: #232427;
+    background-color: #000;
     padding: 65px 0 20px 0;
     overflow: hidden;
     width: 100%;
@@ -16038,19 +16005,6 @@ footer {
 
 .footerCallToAction {
     margin-bottom: 75px
-}
-
-footer:after {
-    position: absolute;
-    color: #fff;
-    bottom: -102px;
-    left: 0;
-    width: 110px;
-    height: 150px;
-    background-image: url(../vectors/footer/last_ship.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: ''
 }
 
 .demande-Form {
@@ -16711,7 +16665,7 @@ section.aboutHeader {
 }
 
 section.moreAbout {
-    background: #FFBE2E
+    background: #000;
 }
 
 section.aboutHeader h2 {
@@ -26285,35 +26239,8 @@ section.eskelah_numbers {
     padding-top: 95px
 }
 
-section.eskelah_numbers:after {
-    color: #fff;
-    bottom: -46px;
-    left: -20px;
-    width: 240px;
-    height: 250px;
-    content: '';
-    position: absolute;
-    z-index: 200;
-    background-image: url(../vectors/about/manara.png);
-    background-repeat: no-repeat
-}
-
 section.eskelah_numbers {
     position: relative
-}
-
-span.numbered.raleway {
-    font-size: 130px;
-    color: #ffbe2e61;
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    top: -60px;
-    z-index: -10
 }
 
 .number_title {
@@ -26384,7 +26311,7 @@ ul.last-footer_menu li a {
 }
 
 footer {
-    background-color: #232427;
+    background-color: #000;
     padding: 65px 0 20px 0;
     overflow: hidden;
     width: 100%;
@@ -26424,19 +26351,6 @@ footer {
 
 .footerCallToAction {
     margin-bottom: 75px
-}
-
-footer:after {
-    position: absolute;
-    color: #fff;
-    bottom: -102px;
-    left: 0;
-    width: 110px;
-    height: 150px;
-    background-image: url(../vectors/footer/last_ship.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    content: ''
 }
 
 .demande-Form {
@@ -26998,17 +26912,21 @@ section.EbookDownload {
 
 section.moreAbout {
     padding: 45px;
-    margin-top: 45px
+    margin-top: 45px;
+    padding-top: 290px;
 }
 
 h3.moreTitle {
-    font-size: 20px
+    font-size: 20px;
+    color: #ffbe2e;
+    text-align: center;
 }
 
 p.moreDesc {
     line-height: 35px;
     color: #fff;
-    position: relative
+    position: relative;
+    text-align: center;
 }
 
 .moreAbout .col-md-5 .moreDesc:after {
@@ -27094,10 +27012,6 @@ section.aboutHeader {
     border-bottom: 4px solid #FFBE2E;
     position: relative;
     top: -105px
-}
-
-section.moreAbout {
-    background: #FFBE2E
 }
 
 section.aboutHeader h2 {
@@ -28226,10 +28140,6 @@ blockquote {
 
 .service-img img {
     max-width: 150px;
-}
-
-img.catcat {
-    display: none;
 }
 
 h2.englishme {
@@ -31103,7 +31013,7 @@ section.moreAbout {
 }
 
 p.moreDesc {
-    text-align: justify;
+    text-align: center;
     margin-top: 30px;
 }
 
@@ -31125,6 +31035,8 @@ section#counters-eskelah .title-section.text-center {
 
 section.moreAbout {
     margin-top: 60px;
+    padding-top: 290px;
+    padding-bottom: 100px;
 }
 
 section.why-esklah .title-section h2 {
@@ -31389,4 +31301,36 @@ path#htwaicon-chat {
 p.ctc_s_7_cta.ctc-analytics.ht-ctc-cta.ht-ctc-cta-hover {
     background-color: #000 !important;
     color: #ffbe2e !important;
+}
+
+.eskelah_numbers .container{
+    position: relative;
+}
+
+.quanlities-img{
+    position: absolute;
+    top: -59px;
+    left: -6%;
+    width: 730px;
+    z-index: -1;
+}
+
+.qualities-text{
+    position: absolute;
+    width: 50%;
+    left: 50px;
+}
+
+img.catcat{
+    position: absolute;
+    right: 33%;
+    top: -100px;
+    z-index: 1;
+}
+
+footer{
+    padding: 125px 0 70px 0;
+    background: url('../vectors/footer-background.png');
+    background-position: center;
+    background-size: cover;
 }
