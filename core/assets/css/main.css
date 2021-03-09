@@ -1,3 +1,5 @@
+@import 'animations.css';
+
 @font-face {
     font-family: 'NexaRegular';
     src: url('fonts/NexaRegular.woff2') format('woff2'), url('fonts/NexaRegular.woff') format('woff');
@@ -26,34 +28,6 @@
     font-style: normal;
     font-display: swap;
 }
-
-@keyframes rightToLeft {
-    0% {
-        right: -89px;
-    }
-    80% {
-        right: 40px;
-    }
-    100% {
-        right: 90px;
-    }
-}
-
-@keyframes smoothWidth{
-    0%{width: 40px;}
-    100%{width: 180px;}
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        right:-20px;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
@@ -31189,6 +31163,7 @@ span.iconic {
 
 section.post p {
     font-family: 'SWISSRA-LIGHT';
+    text-align: justify;
 }
 
 .nexa {
@@ -31389,7 +31364,18 @@ span.work-steps.eskelah.undelined:after {
 }
 
 .ctc_s_7_icon_padding.ctc-analytics {
+    animation: pulseIcon 2s infinite linear !important;
     background-color: #000 !important;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctc_s_7_icon_padding.ctc-analytics svg{
+    height: 25px !important;
+    width: 25px !important;
 }
 
 body .ht-ctc.style-7:hover .ctc_s_7_icon_padding {

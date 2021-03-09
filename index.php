@@ -110,7 +110,7 @@
                 <div class="about-left">
                     <h3 class="about-left-title">نبحر لالتقاط الكنوز!</h3>
                     <h5 class="about-left-subtitle">نحن هنا لركوب موجة جديدة</h5>
-                    <p class="about-left-text">
+                    <p class="about-left-text light">
                         نصنع في إسكلة حلولا متكاملة من خدمات الإنتاج المرئي و التسويق الرقمي و تطوير الهويات التجارية،
                         من البحث و الإعداد إلى الإنتاج و الإطلاق!
                     </p>

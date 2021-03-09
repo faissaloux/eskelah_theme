@@ -1,0 +1,41 @@
+@keyframes rightToLeft {
+    0% {
+        right: -89px;
+    }
+    80% {
+        right: 40px;
+    }
+    100% {
+        right: 90px;
+    }
+}
+
+@keyframes smoothWidth{
+    0%{width: 40px;}
+    100%{width: 180px;}
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        right:-20px;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pulseIcon {
+    0% {
+        opacity: 0;
+        transform: scale(.2);
+    }
+    60% {
+        opacity: .4;
+        transform: scale(.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
