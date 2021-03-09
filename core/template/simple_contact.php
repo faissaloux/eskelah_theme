@@ -34,7 +34,7 @@
             </div>
             </div>
             </div>
-            <div class="form-group text-center"><button class="btn btn">ارسال</button></div>
+            <div class="form-group text-center"><button class="btn btn rightToLeft-effect">ارسال</button></div>
             <div class="sendresult"></div>
                     </form>
     </div>

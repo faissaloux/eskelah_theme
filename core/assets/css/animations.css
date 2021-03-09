@@ -1,12 +1,57 @@
+@keyframes rightToLeftDouble{
+    0% {
+        right: -89px;
+    }
+    20% {
+        right: 40px;
+    }
+    40% {
+        right: 90px;
+    }
+    50% {
+        right: 120px;
+    }
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0;
+    }
+    5% {
+        opacity: .6;
+    }
+    15% {
+        opacity: 1;
+    }
+    20% {
+        color: #FFF;
+    }
+    60% {
+        color: #000;
+    }
+    80% {
+        color: #FFF;
+    }
+    90% {
+        color: #000;
+    }
+    100% {
+        color: #FFF;
+    }
+}
+
 @keyframes rightToLeft {
     0% {
         right: -89px;
     }
     80% {
-        right: 40px;
+        right: 80%;
     }
     100% {
-        right: 90px;
+        right: 100%;
     }
 }
 

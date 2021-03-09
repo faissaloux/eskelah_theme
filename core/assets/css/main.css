@@ -21267,7 +21267,8 @@ footer {
     border-radius: 100px;
     background: #FFBE2E;
     font-size: 21px;
-    color: #000
+    color: #000;
+    z-index: 2;
 }
 
 .FooterInfo h4 {
@@ -21664,7 +21665,8 @@ section.service-tite .page-title {
     border-radius: 100px;
     background: #ffbe2e;
     color: #000;
-    font-size: 17px
+    font-size: 17px;
+    z-index: 2;
 }
 
 .contact-form {
@@ -22164,20 +22166,47 @@ section.clients {
     font-size: 14px;
     margin-bottom: -25px;
     padding-left: 65px;
-    position: relative
+    position: relative;
+    overflow: hidden;
+}
+
+.take_action a:last-child:before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    top: -1px;
+    bottom: -2px;
+    right: -200px;
+    background-color: #000;
+    z-index: -1;
 }
 
 .take_action a:last-child:after {
+    content: '';
     position: absolute;
     width: 40px;
     height: 30px;
     background-color: #4500ff00;
-    content: '';
     top: 17px;
     left: 21px;
     margin-right: 20px;
     background-image: url(../vectors/team/btn_arrow.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+}
+
+.take_action a:last-child:hover::before {
+    animation: rightToLeftDouble .5s;
+    right: 0;
+}
+
+.take_action a:last-child:hover {
+    opacity: 0;
+    z-index: 9999;
+    animation: pulse .5s;
+    animation-delay: .5s;
+    opacity: 1;
+    border: none;
+    color: #FFF;
 }
 
 .hero-img {
@@ -37717,50 +37746,60 @@ footer .title {
     font-size: 24px;
 }
 
-.navbar .start-project-btn {
+.rightToLeft-effect {
+    position: relative;
     background-color: #ffbe2e;
     padding: 17px 22px;
     border-radius: 30px;
+    overflow: hidden;
+    z-index: 2;
 }
 
-.navbar .start-project-btn a {
+.rightToLeft-effect::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    top: -1px;
+    bottom: -2px;
+    right: -200px;
+    background-color: #000;
+    z-index: -1;
+}
+
+.rightToLeft-effect:hover{
     color: #FFF;
 }
 
-@keyframes rightToLeft {
-    0% {
-        right: -200px;
-    }
-    100% {
-        right: 0;
-    }
+.rightToLeft-effect:hover::after{
+    animation: rightToLeft .5s;
+    right: 0;
 }
 
-@keyframes pulse {
-    0% {
-        opacity: 0;
-    }
-    5% {
-        opacity: .6;
-    }
-    15% {
-        opacity: 1;
-    }
-    20% {
-        color: #FFF;
-    }
-    60% {
-        color: #000;
-    }
-    80% {
-        color: #FFF;
-    }
-    90% {
-        color: #000;
-    }
-    100% {
-        color: #FFF;
-    }
+.navbar .start-project-btn a {
+    position: inherit;
+    z-index: 2;
+    color: #FFF;
+}
+
+.footer-rightToLeft-effect{
+    position: relative;
+    overflow: hidden;
+}
+
+.footer-rightToLeft-effect::after{
+    content: '';
+    position: absolute;
+    width: 224px;
+    top: -1px;
+    bottom: -2px;
+    right: -230px;
+    background-color: #FFF;
+    z-index: -1;
+}
+
+.footer-rightToLeft-effect:hover::after{
+    animation: rightToLeft .5s;
+    right: 0;
 }
 
 .take_action a:first-child:hover::after {
@@ -38375,4 +38414,17 @@ i.fa.fa-arrow-right {
 
 .whois p.light {
     padding-top: 10px;
+}
+
+@keyframes flip {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 40px;
+    }
+}
+
+.social-media-icon:hover a{
+    animation: fadeIn 1s linear !important;
 }

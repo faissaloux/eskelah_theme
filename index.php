@@ -74,8 +74,7 @@
                     هذا ما ستأخذه من عملك معنا في الإنتاج المرئي و التسويق الرقمي
                 </p>
                 <div class="take_action">
-                    <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">شاهد <span
-                            class="showreal">show real</span></a>
+                    <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">شاهد <span class="showreal">show real</span></a>
                     <a id="demandeNow" href="javascript:;" class="btn">اطلب عرض</a>
                 </div>
             </div>

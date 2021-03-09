@@ -53,7 +53,7 @@
               ));
             ?>
     
-          <div class="start-project-btn">
+          <div class="start-project-btn rightToLeft-effect">
             <a href="/contact">ابدأ مشروعك</a>
           </div>
 
