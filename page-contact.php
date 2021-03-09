@@ -7,7 +7,7 @@
 <?php global $vectors;  ?>
 
 <style>
-span.iconic:hover {
+/*::cue()span.iconic:hover {
     background: white !important;
     border: 3px solid #fdbd2e;
     -webkit-box-shadow: -1px 0 5px 0 rgb(173 173 173);
@@ -15,7 +15,7 @@ span.iconic:hover {
     box-shadow: -1px 0 55px 0 rgb(173 173 173 / 30%);
     box-sizing: content-box !important;
     transition: 0.2s;
-}
+}*/
 
 /************/
 h1.main-title {
@@ -127,8 +127,9 @@ section.about-page-tite.contact-title {
                     src="<?php echo $vectors; ?>/map1.png" alt=""></a>
         </div>
         <div class="col-md-12">
-            <a href='javascript:;' class="open-cart" data-toggle="modal" data-target="#MAPMODAL"> <span>احصل على
-                    الوجهة</span></a>
+            <a href='javascript:;' class="open-cart" data-toggle="modal" data-target="#MAPMODAL"> <i
+                    class="fa fa-arrow-left" aria-hidden="true"></i> <span>احصل على الوجهة</span> <i
+                    class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
     </div>
 </section>

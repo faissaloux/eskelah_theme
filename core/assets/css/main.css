@@ -38170,7 +38170,7 @@ section.post p {
 }
 
 .light {
-    font-family: 'light';
+    font-family: 'swissra-light';
 }
 
 .sales-team-new {
@@ -38316,7 +38316,7 @@ img.catcat {
 footer {
     padding: 125px 0 70px 0;
     background: url('../vectors/footer-background.png');
-    background-position: center;
+    background-position: initial;
     background-size: cover;
 }
 
@@ -38333,4 +38333,46 @@ footer {
 
 .team-col {
     border-bottom: 2px solid #fdbd2e;
+}
+
+.lang a {
+    font-family: 'Nexa';
+}
+
+@keyframes movearrowleft {
+    0%,
+    100% {
+        right: 0px;
+    }
+    50% {
+        right: 10px;
+    }
+}
+
+i.fa.fa-arrow-left {
+    padding-left: 10px;
+    animation: movearrowleft 1s infinite linear !important;
+    animation-play-state: running;
+    position: relative;
+}
+
+@keyframes movearrowright {
+    0%,
+    100% {
+        left: 0px;
+    }
+    50% {
+        left: 10px;
+    }
+}
+
+i.fa.fa-arrow-right {
+    padding-right: 10px;
+    animation: movearrowright 1s infinite linear !important;
+    animation-play-state: running;
+    position: relative;
+}
+
+.whois p.light {
+    padding-top: 10px;
 }
