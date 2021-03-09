@@ -172,12 +172,11 @@
 <section class="results-eskelah" id="counters-eskelah">
     <div class="container">
         <div class="title-section text-center">
-            <h2>ما هي النتائج المتوقعة من عملك معنا؟</h2>
+            <h2>ما هي النتائج المتوقعة من عملك معنا<span class="nexa" id="type"></span>؟</h2>
             <span class="diviWhy"></span>
         </div>
         <div class="col-md-4">
             <div class="icon-box">
-                <span class="iconic"><span id="first-counter">60</span>%</span>
                 <div class="heading">
                     <h2>التأسيس</h2>
                 </div>
@@ -189,7 +188,6 @@
 
         <div class="col-md-4">
             <div class="icon-box">
-                <span class="iconic"><span id="second-counter">70</span>%</span>
                 <div class="heading">
                     <h2>الإستمرارية</h2>
                 </div>
@@ -202,7 +200,6 @@
 
         <div class="col-md-4">
             <div class="icon-box">
-                <span class="iconic"><span id="third-counter">80</span>%</span>
                 <div class="heading">
                     <h2>التطور</h2>
                 </div>

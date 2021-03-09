@@ -282,6 +282,16 @@ jQuery( document ).on( 'submit', '#contactForm', function(event) {
   
 });          
 
+new TypeIt("#type", {
+    speed: 75,
+    loop: true
+}).type(" 60", {delay: 300})
+.delete(null, {delay: 1000})
+.type(" 70", {delay: 300})
+.delete(null, {delay: 1000})
+.type(" 80", {delay: 300})
+.go();
+
     $(window).scroll(()=>{
         if($(window).scrollTop() >= 105){
             $("header").css({
@@ -333,7 +343,6 @@ jQuery( document ).on( 'submit', '#contactForm', function(event) {
             thirdCounter.start();
         }
     });
-    
 
 });
 
@@ -366,14 +375,3 @@ window.addEventListener('load', function(e) {
 		}, 3500);
 	}, 5500);
 });
-
-
-
-// jQuery("body").queryLoader2({
-//     barColor: "#FFC801",
-//     backgroundColor: "#1c2222",
-//     percentage: true,
-//     barHeight: 2,
-//     completeAnimation: "grow",
-//     minimumTime: 100
-// });
