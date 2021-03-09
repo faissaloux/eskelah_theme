@@ -36,9 +36,9 @@
 
 
                 section.maintestimenials {
-                    margin-top: -60px !important;
+                    margin-top: -50px !important;
                     padding-bottom: 20px;
-                    padding-top: 0;
+                    padding-top: 40px;
                     position: relative;
                 }
 
@@ -458,6 +458,8 @@
                     <?php $i = 0; ?>
                     <?php foreach($clients as $image): $image = unserialize($image->image);   ?>
 
+                    <?php $title = explode('-' , $image['title']) ?>
+
                     <div class="item carousel-item <?php echo ($i == 0 ) ? 'active' : '' ?>">
 
                         <div class="col-sm-6 col-md-offset-3">
@@ -473,7 +475,10 @@
                                 <div class="media-body">
                                     <div class="overview">
 
-                                        <div class="details"> <?php echo $image['title'] ?> </div>
+                                        <div class="details light">
+                                            <span><?php echo $title[0] ?> </span><br>
+                                            <span><?php echo $title[1] ?> </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
