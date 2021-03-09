@@ -247,7 +247,7 @@
 }
 #wrapperup {
     width: 190px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     height: 45px;
     border-radius: 94px;
     text-align: center;

@@ -155,7 +155,7 @@ section.portfolio {
     z-index: 9999999;
     left: 253px;
     color: white;
-    border: 2px solid #FFBE2E !important;
+    border: 2px solid #fdbd2e !important;
 }
 
 .frame {

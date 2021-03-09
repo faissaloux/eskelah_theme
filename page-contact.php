@@ -9,7 +9,7 @@
 <style>
 span.iconic:hover {
     background: white !important;
-    border: 3px solid #ffbe2e;
+    border: 3px solid #fdbd2e;
     -webkit-box-shadow: -1px 0 5px 0 rgb(173 173 173);
     -moz-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
     box-shadow: -1px 0 55px 0 rgb(173 173 173 / 30%);
@@ -45,7 +45,7 @@ a.open-cart {
     text-align: center;
     display: block;
     margin-top: 30px;
-    color: #ffbe2e;
+    color: #fdbd2e;
     font-size: 24px;
 }
 

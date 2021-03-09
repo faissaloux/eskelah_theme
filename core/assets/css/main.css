@@ -21057,7 +21057,7 @@ section.about-page-tite h1:after {
     right: 30px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -21112,7 +21112,7 @@ section.about-page-tite h1:before {
     right: -20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -21125,7 +21125,7 @@ section.about-page-tite h1:before {
 }
 
 .team-box {
-    border-bottom: 5px solid #FFBE2E;
+    border-bottom: 5px solid #fdbd2e;
     -webkit-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     -moz-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     box-shadow: -1px 2px 5px 0 rgba(0, 0, 0, 0.08);
@@ -21176,7 +21176,7 @@ section.eskelah_numbers {
 
 span.numbered.raleway {
     font-size: 130px;
-    color: #ffbe2e61;
+    color: #fdbd2e61;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -21201,7 +21201,7 @@ span.ProcessNumber {
     color: #000;
     width: 70px;
     height: 70px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     border-radius: 50px;
     font-size: 55px;
     display: inline-block;
@@ -21216,7 +21216,7 @@ section.work-steps {
 }
 
 section.CallToActionAbout {
-    background: #FFBE2E;
+    background: #fdbd2e;
     padding: 40px
 }
 
@@ -21279,7 +21279,7 @@ footer {
 .footerCallToAction .btn {
     padding: 15px 30px;
     border-radius: 100px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     font-size: 21px;
     color: #000
 }
@@ -21336,7 +21336,7 @@ a#closeForm {
 span.iconic {
     width: 100px;
     height: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block;
     border-radius: 200px;
     text-align: center;
@@ -21349,7 +21349,7 @@ span.iconic {
 
 .form-control.inpt:focus {
     box-shadow: none;
-    border-color: #ffbe2e;
+    border-color: #fdbd2e;
     background: #fff
 }
 
@@ -21358,13 +21358,13 @@ span.iconic {
 }
 
 .form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 100px;
     height: 51px
 }
 
 textarea.form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 25px;
     height: 151px;
     resize: none
@@ -21373,7 +21373,7 @@ textarea.form-control.inpt {
 .contactForm-contactPage button.btn.btn {
     padding: 15px 50px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     width: 100%
 }
@@ -21412,7 +21412,7 @@ textarea.form-control.inpt {
     box-shadow: -1px 0 55px 0 rgba(173, 173, 173, 0.3);
     padding: 26px 58px;
     margin-bottom: 125px;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     margin-top: 130px;
     position: relative;
     padding-bottom: 105px
@@ -21432,7 +21432,7 @@ section.contactInfo .title {
 }
 
 section.contactInfo span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projects_title h1.main-title:after {
@@ -21441,7 +21441,7 @@ section.contactInfo span {
     right: 20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -21503,7 +21503,7 @@ section.contactInfo span {
 }
 
 .project-info-dipslay {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .project-info-dipslay a {
@@ -21522,7 +21522,7 @@ section.contactInfo span {
 
 .main_display {
     display: table;
-    background: #ffbe2e;
+    background: #fdbd2e;
     vertical-align: top;
     padding-right: 35px
 }
@@ -21664,7 +21664,7 @@ h3.service-divider {
 a.btn.btn-call-to-action {
     padding: 17px 40px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 14px;
     margin-bottom: -25px;
@@ -21689,7 +21689,7 @@ section.service-tite .page-title {
 .contact-form .btn {
     padding: 14px 70px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 17px
 }
@@ -21792,7 +21792,7 @@ a:visited {
 .serviceButton a {
     padding: 17px 30px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 16px;
     margin-top: 25px
@@ -21861,11 +21861,11 @@ section.who_is_eskelah {
 }
 
 .whois h2 span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 section.EbookDownload {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 section.moreAbout {
@@ -21914,7 +21914,7 @@ section.moreAbout {
 }
 
 section.EbookDownload {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 15px 0;
     padding-bottom: 0!important
 }
@@ -21963,13 +21963,13 @@ section.EbookDownload img {
 }
 
 section.aboutHeader {
-    border-bottom: 4px solid #FFBE2E;
+    border-bottom: 4px solid #fdbd2e;
     position: relative;
     top: -105px
 }
 
 section.moreAbout {
-    background: #FFBE2E
+    background: #fdbd2e
 }
 
 section.aboutHeader h2 {
@@ -21982,7 +21982,7 @@ section.aboutHeader h2 {
 .moreprojectBox {
     height: 135px;
     overflow: hidden;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     line-height: 135px;
     -webkit-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
     -moz-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
@@ -22012,13 +22012,13 @@ ul.project-More-Info li {
 }
 
 ul.project-More-Info li span {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-left: 15px
 }
 
 .projectHeader {
     overflow: hidden;
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 45px 0;
     margin-bottom: 31px
 }
@@ -22066,7 +22066,7 @@ span.videoplay {
 
 span.watch_it {
     font-size: 23px;
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projectInfo {
@@ -22088,7 +22088,7 @@ span.watch_it {
 
 section.PostHeader {
     height: 325px;
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     background-image: url(../vectors/post/post_thumbnail.png);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -22102,7 +22102,7 @@ section.PostHeader {
 }
 
 .postitle h1 {
-    background: #ffbe2e;
+    background: #fdbd2e;
     font-size: 34px;
     text-align: center;
     line-height: 45px;
@@ -22124,7 +22124,7 @@ section.post-meta ul li {
 }
 
 span.eskelah {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .take_action a:first-child {
@@ -22179,7 +22179,7 @@ section.clients {
 .take_action a:last-child {
     padding: 17px 20px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     font-size: 14px;
     margin-bottom: -25px;
@@ -22274,7 +22274,7 @@ section.testimenials img {
 }
 
 span.whom {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-top: 20px;
     display: inline-block
 }
@@ -22282,7 +22282,7 @@ span.whom {
 .testimenials span.divi {
     height: 2px;
     width: 170px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -22343,14 +22343,14 @@ section.about-home {
 }
 
 .about-right img:not(.videoplayimg) {
-    border: 3px solid #ffbe2e;
+    border: 3px solid #fdbd2e;
     margin-top: 25px
 }
 
 .divis {
     width: 80%;
     height: 6px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -22372,7 +22372,7 @@ section.about-home {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffbe2e
+    background-color: #fdbd2e
 }
 
 .project-display-thumbnail {
@@ -22401,7 +22401,7 @@ section.about-home {
 }
 
 section.maintestimenials {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 75px;
     padding-top: 25px
 }
@@ -22567,7 +22567,7 @@ section.clients h2 {
 
 .carousel-indicators li.active {
     color: #fff;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border: 5px double
 }
 
@@ -22639,7 +22639,7 @@ section.why-esklah {
 span.diviWhy {
     width: 115px;
     height: 2px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -22761,7 +22761,7 @@ section.about-page-tite h1:after {
     right: 30px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -22816,7 +22816,7 @@ section.about-page-tite h1:before {
     right: -20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -22829,7 +22829,7 @@ section.about-page-tite h1:before {
 }
 
 .team-box {
-    border-bottom: 5px solid #FFBE2E;
+    border-bottom: 5px solid #fdbd2e;
     -webkit-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     -moz-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     box-shadow: -1px 2px 5px 0 rgba(0, 0, 0, 0.08);
@@ -22880,7 +22880,7 @@ section.eskelah_numbers {
 
 span.numbered.raleway {
     font-size: 130px;
-    color: #ffbe2e61;
+    color: #fdbd2e61;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -22905,7 +22905,7 @@ span.ProcessNumber {
     color: #000;
     width: 70px;
     height: 70px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     border-radius: 50px;
     font-size: 55px;
     display: inline-block;
@@ -22922,7 +22922,7 @@ section.work-steps {
 }
 
 section.CallToActionAbout {
-    background: #FFBE2E;
+    background: #fdbd2e;
     padding: 40px
 }
 
@@ -22985,7 +22985,7 @@ footer {
 .footerCallToAction .btn {
     padding: 15px 30px;
     border-radius: 100px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     font-size: 21px;
     color: #000
 }
@@ -23042,7 +23042,7 @@ a#closeForm {
 span.iconic {
     width: 100px;
     height: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block;
     border-radius: 200px;
     text-align: center;
@@ -23055,7 +23055,7 @@ span.iconic {
 
 .form-control.inpt:focus {
     box-shadow: none;
-    border-color: #ffbe2e;
+    border-color: #fdbd2e;
     background: #fff
 }
 
@@ -23064,13 +23064,13 @@ span.iconic {
 }
 
 .form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 100px;
     height: 51px
 }
 
 textarea.form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 25px;
     height: 151px;
     resize: none
@@ -23079,7 +23079,7 @@ textarea.form-control.inpt {
 .contactForm-contactPage button.btn.btn {
     padding: 15px 50px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     width: 100%
 }
@@ -23118,7 +23118,7 @@ textarea.form-control.inpt {
     box-shadow: -1px 0 55px 0 rgba(173, 173, 173, 0.3);
     padding: 26px 58px;
     margin-bottom: 125px;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     margin-top: 130px;
     position: relative;
     padding-bottom: 105px
@@ -23138,7 +23138,7 @@ section.contactInfo .title {
 }
 
 section.contactInfo span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projects_title h1.main-title:after {
@@ -23147,7 +23147,7 @@ section.contactInfo span {
     right: 20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -23209,7 +23209,7 @@ section.contactInfo span {
 }
 
 .project-info-dipslay {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .project-info-dipslay a {
@@ -23228,7 +23228,7 @@ section.contactInfo span {
 
 .main_display {
     display: table;
-    background: #ffbe2e;
+    background: #fdbd2e;
     vertical-align: top;
     padding-right: 35px
 }
@@ -23370,7 +23370,7 @@ h3.service-divider {
 a.btn.btn-call-to-action {
     padding: 17px 40px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 14px;
     margin-bottom: -25px;
@@ -23395,7 +23395,7 @@ section.service-tite .page-title {
 .contact-form .btn {
     padding: 14px 70px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 17px
 }
@@ -23498,7 +23498,7 @@ a:visited {
 .serviceButton a {
     padding: 17px 30px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 16px;
     margin-top: 25px
@@ -23567,11 +23567,11 @@ section.who_is_eskelah {
 }
 
 .whois h2 span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 section.EbookDownload {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 section.moreAbout {
@@ -23620,7 +23620,7 @@ section.moreAbout {
 }
 
 section.EbookDownload {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 15px 0;
     padding-bottom: 0!important
 }
@@ -23669,13 +23669,13 @@ section.EbookDownload img {
 }
 
 section.aboutHeader {
-    border-bottom: 4px solid #FFBE2E;
+    border-bottom: 4px solid #fdbd2e;
     position: relative;
     top: -105px
 }
 
 section.moreAbout {
-    background: #FFBE2E
+    background: #fdbd2e
 }
 
 section.aboutHeader h2 {
@@ -23688,7 +23688,7 @@ section.aboutHeader h2 {
 .moreprojectBox {
     height: 135px;
     overflow: hidden;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     line-height: 135px;
     -webkit-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
     -moz-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
@@ -23718,13 +23718,13 @@ ul.project-More-Info li {
 }
 
 ul.project-More-Info li span {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-left: 15px
 }
 
 .projectHeader {
     overflow: hidden;
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 45px 0;
     margin-bottom: 31px
 }
@@ -23772,7 +23772,7 @@ span.videoplay {
 
 span.watch_it {
     font-size: 23px;
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projectInfo {
@@ -23794,7 +23794,7 @@ span.watch_it {
 
 section.PostHeader {
     height: 325px;
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     background-image: url(../vectors/post/post_thumbnail.png);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -23808,7 +23808,7 @@ section.PostHeader {
 }
 
 .postitle h1 {
-    background: #ffbe2e;
+    background: #fdbd2e;
     font-size: 34px;
     text-align: center;
     line-height: 45px;
@@ -23830,7 +23830,7 @@ section.post-meta ul li {
 }
 
 span.eskelah {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .take_action a:first-child {
@@ -23873,7 +23873,7 @@ section.clients {
 .take_action a:last-child {
     padding: 17px 20px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     font-size: 14px;
     margin-bottom: -25px;
@@ -23968,7 +23968,7 @@ section.testimenials img {
 }
 
 span.whom {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-top: 20px;
     display: inline-block
 }
@@ -23976,7 +23976,7 @@ span.whom {
 .testimenials span.divi {
     height: 2px;
     width: 170px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -24037,14 +24037,14 @@ section.about-home {
 }
 
 .about-right img:not(.videoplayimg) {
-    border: 3px solid #ffbe2e;
+    border: 3px solid #fdbd2e;
     margin-top: 25px
 }
 
 .divis {
     width: 80%;
     height: 6px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -24066,7 +24066,7 @@ section.about-home {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffbe2e
+    background-color: #fdbd2e
 }
 
 .project-display-thumbnail {
@@ -24095,7 +24095,7 @@ section.about-home {
 }
 
 section.maintestimenials {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 75px;
     padding-top: 25px
 }
@@ -24261,7 +24261,7 @@ section.clients h2 {
 
 .carousel-indicators li.active {
     color: #fff;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border: 5px double
 }
 
@@ -24333,7 +24333,7 @@ section.why-esklah {
 span.diviWhy {
     width: 115px;
     height: 2px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -33149,7 +33149,7 @@ section.about-page-tite h1:after {
     right: 30px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -33204,7 +33204,7 @@ section.about-page-tite h1:before {
     right: -20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -33217,7 +33217,7 @@ section.about-page-tite h1:before {
 }
 
 .team-box {
-    border-bottom: 5px solid #FFBE2E;
+    border-bottom: 5px solid #fdbd2e;
     -webkit-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     -moz-box-shadow: -1px 2px 5px 0 rgba(168, 156, 168, 1);
     box-shadow: -1px 2px 5px 0 rgba(0, 0, 0, 0.08);
@@ -33268,7 +33268,7 @@ section.eskelah_numbers {
 
 span.numbered.raleway {
     font-size: 130px;
-    color: #ffbe2e61;
+    color: #fdbd2e61;
     position: absolute;
     width: 100%;
     text-align: center;
@@ -33293,7 +33293,7 @@ span.ProcessNumber {
     color: #000;
     width: 70px;
     height: 70px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     border-radius: 50px;
     font-size: 55px;
     display: inline-block;
@@ -33308,7 +33308,7 @@ section.work-steps {
 }
 
 section.CallToActionAbout {
-    background: #FFBE2E;
+    background: #fdbd2e;
     padding: 40px
 }
 
@@ -33371,7 +33371,7 @@ footer {
 .footerCallToAction .btn {
     padding: 15px 30px;
     border-radius: 100px;
-    background: #FFBE2E;
+    background: #fdbd2e;
     font-size: 21px;
     color: #000
 }
@@ -33428,7 +33428,7 @@ a#closeForm {
 span.iconic {
     width: 100px;
     height: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block;
     border-radius: 200px;
     text-align: center;
@@ -33441,7 +33441,7 @@ span.iconic {
 
 .form-control.inpt:focus {
     box-shadow: none;
-    border-color: #ffbe2e;
+    border-color: #fdbd2e;
     background: #fff
 }
 
@@ -33450,13 +33450,13 @@ span.iconic {
 }
 
 .form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 100px;
     height: 51px
 }
 
 textarea.form-control.inpt {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     border-radius: 25px;
     height: 151px;
     resize: none
@@ -33465,7 +33465,7 @@ textarea.form-control.inpt {
 .contactForm-contactPage button.btn.btn {
     padding: 15px 50px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     width: 100%
 }
@@ -33504,7 +33504,7 @@ textarea.form-control.inpt {
     box-shadow: -1px 0 55px 0 rgba(173, 173, 173, 0.3);
     padding: 26px 58px;
     margin-bottom: 125px;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     margin-top: 130px;
     position: relative;
     padding-bottom: 105px
@@ -33524,7 +33524,7 @@ section.contactInfo .title {
 }
 
 section.contactInfo span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projects_title h1.main-title:after {
@@ -33533,7 +33533,7 @@ section.contactInfo span {
     right: 20px;
     width: 110px;
     height: 60px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     content: '';
     position: absolute;
     z-index: -10
@@ -33595,7 +33595,7 @@ section.contactInfo span {
 }
 
 .project-info-dipslay {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .project-info-dipslay a {
@@ -33614,7 +33614,7 @@ section.contactInfo span {
 
 .main_display {
     display: table;
-    background: #ffbe2e;
+    background: #fdbd2e;
     vertical-align: top;
     padding-right: 35px
 }
@@ -33756,7 +33756,7 @@ h3.service-divider {
 a.btn.btn-call-to-action {
     padding: 17px 40px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 14px;
     margin-bottom: -25px;
@@ -33781,7 +33781,7 @@ section.service-tite .page-title {
 .contact-form .btn {
     padding: 14px 70px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 17px
 }
@@ -33884,7 +33884,7 @@ a:visited {
 .serviceButton a {
     padding: 17px 30px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #000;
     font-size: 16px;
     margin-top: 25px
@@ -33953,11 +33953,11 @@ section.who_is_eskelah {
 }
 
 .whois h2 span {
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 section.EbookDownload {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 section.moreAbout {
@@ -34006,7 +34006,7 @@ section.moreAbout {
 }
 
 section.EbookDownload {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 15px 0;
     padding-bottom: 0!important
 }
@@ -34055,13 +34055,13 @@ section.EbookDownload img {
 }
 
 section.aboutHeader {
-    border-bottom: 4px solid #FFBE2E;
+    border-bottom: 4px solid #fdbd2e;
     position: relative;
     top: -105px
 }
 
 section.moreAbout {
-    background: #FFBE2E
+    background: #fdbd2e
 }
 
 section.aboutHeader h2 {
@@ -34074,7 +34074,7 @@ section.aboutHeader h2 {
 .moreprojectBox {
     height: 135px;
     overflow: hidden;
-    border-bottom: 6px solid #ffbe2e;
+    border-bottom: 6px solid #fdbd2e;
     line-height: 135px;
     -webkit-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
     -moz-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
@@ -34104,13 +34104,13 @@ ul.project-More-Info li {
 }
 
 ul.project-More-Info li span {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-left: 15px
 }
 
 .projectHeader {
     overflow: hidden;
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 45px 0;
     margin-bottom: 31px
 }
@@ -34158,7 +34158,7 @@ span.videoplay {
 
 span.watch_it {
     font-size: 23px;
-    color: #ffbe2e
+    color: #fdbd2e
 }
 
 .projectInfo {
@@ -34180,7 +34180,7 @@ span.watch_it {
 
 section.PostHeader {
     height: 325px;
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     background-image: url(../vectors/post/post_thumbnail.png);
     background-repeat: no-repeat;
     object-fit: cover;
@@ -34194,7 +34194,7 @@ section.PostHeader {
 }
 
 .postitle h1 {
-    background: #ffbe2e;
+    background: #fdbd2e;
     font-size: 34px;
     text-align: center;
     line-height: 45px;
@@ -34216,7 +34216,7 @@ section.post-meta ul li {
 }
 
 span.eskelah {
-    background: #ffbe2e
+    background: #fdbd2e
 }
 
 .take_action a:first-child {
@@ -34259,7 +34259,7 @@ section.clients {
 .take_action a:last-child {
     padding: 17px 20px;
     border-radius: 100px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: #fff;
     font-size: 14px;
     margin-bottom: -25px;
@@ -34354,7 +34354,7 @@ section.testimenials img {
 }
 
 span.whom {
-    color: #ffbe2e;
+    color: #fdbd2e;
     margin-top: 20px;
     display: inline-block
 }
@@ -34362,7 +34362,7 @@ span.whom {
 .testimenials span.divi {
     height: 2px;
     width: 170px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -34423,14 +34423,14 @@ section.about-home {
 }
 
 .about-right img:not(.videoplayimg) {
-    border: 3px solid #ffbe2e;
+    border: 3px solid #fdbd2e;
     margin-top: 25px
 }
 
 .divis {
     width: 80%;
     height: 6px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     margin: 0 auto;
     position: absolute;
     bottom: 0;
@@ -34452,7 +34452,7 @@ section.about-home {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #ffbe2e
+    background-color: #fdbd2e
 }
 
 .project-display-thumbnail {
@@ -34481,7 +34481,7 @@ section.about-home {
 }
 
 section.maintestimenials {
-    background: #ffbe2e;
+    background: #fdbd2e;
     padding: 75px;
     padding-top: 25px
 }
@@ -34647,7 +34647,7 @@ section.clients h2 {
 
 .carousel-indicators li.active {
     color: #fff;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border: 5px double
 }
 
@@ -34719,7 +34719,7 @@ section.why-esklah {
 span.diviWhy {
     width: 115px;
     height: 2px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     display: inline-block
 }
 
@@ -34971,7 +34971,7 @@ section.why-esklah .title-section h2 {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background: none;
-    color: #ffbe2e;
+    color: #fdbd2e;
 }
 
 .main-menu ul li {
@@ -35030,7 +35030,7 @@ section.SeeMoreProjects.circle_shape:after {
 }
 
 .moreprojectBox:hover {
-    background: #ffbe2e;
+    background: #fdbd2e;
     color: white;
 }
 
@@ -35049,7 +35049,7 @@ ul.project-More-Info i {
 }
 
 .styles__bg-rect___2sc0f {
-    background: #ffbe2e1f;
+    background: #fdbd2e1f;
     position: absolute;
     z-index: -9;
     top: -230px;
@@ -35068,7 +35068,7 @@ ul.project-More-Info i {
     text-align: center;
     line-height: 45px;
     color: white;
-    background: #ffbe2e;
+    background: #fdbd2e;
     font-size: 13px;
     font-weight: 200;
 }
@@ -35082,7 +35082,7 @@ section.main-hero {
 }
 
 .home_team .team-box {
-    border-top: 3px solid #FFBE2E;
+    border-top: 3px solid #fdbd2e;
 }
 
 ul.social_footer_last_last li {
@@ -35093,7 +35093,7 @@ ul.social_footer_last_last li a {
     height: 36px;
     width: 36px;
     border-radius: 150px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     margin-left: 8px;
     text-align: center;
     margin-top: 6px;
@@ -35122,7 +35122,7 @@ a.homeCTA {
     display: inline-block;
     padding: 10px 15px;
     margin-bottom: 20px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border-radius: 45px;
 }
 
@@ -35131,7 +35131,7 @@ a.homeCTA {
     display: inline-block;
     padding: 10px 15px;
     margin-bottom: 20px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border-radius: 45px;
 }
 
@@ -35180,7 +35180,7 @@ a.homeCTA {
 }
 
 blockquote {
-    color: #ffbe2e;
+    color: #fdbd2e;
 }
 
 .projectPost p {
@@ -35230,7 +35230,7 @@ h2.englishme {
     content: '.';
     font-size: 35px;
     margin-left: 9px;
-    color: #ffbe2e;
+    color: #fdbd2e;
 }
 
 ul.project-More-Info li span {
@@ -35797,7 +35797,7 @@ a.btn.DownloadBookButton {}
     a#phone-menu span {
         width: 39px;
         height: 2px;
-        background: #ffbe2e;
+        background: #fdbd2e;
         margin-top: 8px;
     }
     div#sidr {
@@ -35860,7 +35860,7 @@ a.btn.DownloadBookButton {}
     }
     .even .main_display,
     .even .project-info-dipslay {
-        background: #ffbe2e;
+        background: #fdbd2e;
         color: black;
     }
     .projectDisplay.even .project-info-dipslay pre {
@@ -36093,7 +36093,7 @@ LEVEL 4. SETTINGS
         width: 60px;
         height: 60px;
         top: 0;
-        background: #ffbe2e;
+        background: #fdbd2e;
         border-top-left-radius: 0;
     }
     button.r-button.hamburger__button.menu__toggle {
@@ -36113,7 +36113,7 @@ LEVEL 4. SETTINGS
         width: 70px;
         height: 75px;
         top: -40px;
-        background: #ffbe2e;
+        background: #fdbd2e;
         border-top-left-radius: 0;
     }
     .hamberger {
@@ -37678,7 +37678,7 @@ span.eskelah.undelined {
 span.eskelah.undelined:after {
     content: '';
     display: block;
-    background: #ffbe2e;
+    background: #fdbd2e;
     width: 100%;
     height: 8px;
     position: absolute;
@@ -37695,7 +37695,7 @@ span.eskelah.undelined:after {
     display: inline-block;
     padding: 10px 15px;
     margin-bottom: 20px;
-    background: #ffbe2e;
+    background: #fdbd2e;
     border-radius: 45px;
     bottom: 0;
     position: absolute;
@@ -37792,13 +37792,13 @@ footer .title {
 }
 
 .categories-switchers .categories-switcher {
-    border: 2px solid #ffbe2e;
+    border: 2px solid #fdbd2e;
     padding: 10px 14px;
     cursor: pointer;
 }
 
 .categories-switchers .categories-switcher.active {
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     padding: 10px 14px;
     cursor: pointer;
 }
@@ -37808,7 +37808,7 @@ footer .title {
 }
 
 .navbar .start-project-btn {
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     padding: 17px 22px;
     border-radius: 30px;
 }
@@ -37868,7 +37868,7 @@ footer .title {
 }
 
 .about-left-subtitle {
-    color: #ffbe2e;
+    color: #fdbd2e;
     padding: 10px 0;
 }
 
@@ -37891,7 +37891,7 @@ footer .title {
     content: '';
     height: 5px;
     width: 100%;
-    background-color: #ffbe2e;
+    background-color: #fdbd2e;
     position: absolute;
     display: block;
     right: -89px;
@@ -37948,7 +37948,7 @@ footer .title {
     content: "";
     width: 100%;
     height: 100%;
-    background: #ffbe2e;
+    background: #fdbd2e;
     position: absolute;
     left: 0;
     top: 0;
@@ -37968,7 +37968,7 @@ footer .title {
 }
 
 .service_home .icon-content:hover {
-    border-color: #ffbe2e;
+    border-color: #fdbd2e;
 }
 
 .service_home .icon-content h3 {
@@ -38173,7 +38173,7 @@ section.post p {
 }
 
 .sales-team:hover {
-    background: #ffbe2e;
+    background: #fdbd2e;
     transform: translateY(-20px);
     box-shadow: 0 30px 30px #eee;
     z-index: 1;
@@ -38334,7 +38334,7 @@ span.work-steps.eskelah.undelined {
 span.work-steps.eskelah.undelined:after {
     content: '';
     display: block;
-    background: #ffbe2e;
+    background: #fdbd2e;
     width: 100%;
     height: 8px;
     position: absolute;
@@ -38367,10 +38367,10 @@ body .ht-ctc.style-7:hover .ctc_s_7_icon_padding {
 }
 
 path#htwaicon-chat {
-    fill: #ffbe2e !important;
+    fill: #fdbd2e !important;
 }
 
 p.ctc_s_7_cta.ctc-analytics.ht-ctc-cta.ht-ctc-cta-hover {
     background-color: #000 !important;
-    color: #ffbe2e !important;
+    color: #fdbd2e !important;
 }

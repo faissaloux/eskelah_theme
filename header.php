@@ -33,9 +33,9 @@
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
  
     <!-- Browser Color Styling -->
-    <meta name="theme-color" content="#FFBE2E"/>
-    <meta name="msapplication-navbutton-color" content="#FFBE2E"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="#FFBE2E" />
+    <meta name="theme-color" content="#fdbd2e"/>
+    <meta name="msapplication-navbutton-color" content="#fdbd2e"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fdbd2e" />
   
     <!--=== TITLE ===-->  
     <title><?php if (is_home()) { echo bloginfo('name');
