@@ -34,20 +34,12 @@
                     font-family: 'Nexa';
                 }
 
-                section.main-hero {
-                    height: inherit !important;
-                    padding-bottom: 100px;
-                }
 
                 section.maintestimenials {
                     margin-top: -60px !important;
                     padding-bottom: 20px;
                     padding-top: 0;
                     position: relative;
-                }
-
-                .hero-content {
-                    margin-top: 110px;
                 }
 
                 section.why-esklah {

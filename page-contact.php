@@ -9,12 +9,60 @@
 <style>
 span.iconic:hover {
     background: white !important;
-    border: 3px solid #ffbe2e;
+    border: 3px solid #fdbd2e;
     -webkit-box-shadow: -1px 0 5px 0 rgb(173 173 173);
     -moz-box-shadow: -1px 0 5px 0 rgba(173, 173, 173, 1);
     box-shadow: -1px 0 55px 0 rgb(173 173 173 / 30%);
     box-sizing: content-box !important;
     transition: 0.2s;
+}
+
+/************/
+h1.main-title {
+    display: inline-grid;
+}
+
+img.contact-us-img {
+    width: 150px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+section.about-page-tite.contact-title {
+    margin-bottom: 20px;
+}
+
+.eskelah-map {
+    width: 100%;
+}
+
+section.map-section {
+    margin-bottom: 70px;
+}
+
+a.open-cart {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+    color: #fdbd2e;
+    font-size: 24px;
+}
+
+span.iconic img {
+    width: 100%;
+}
+
+section.contactInfo {
+    margin-top: 100px;
+}
+
+iframe {
+    width: 100%;
+}
+
+span.iconic {
+    background: initial;
 }
 </style>
 
@@ -25,11 +73,12 @@ span.iconic:hover {
 <section class="about-page-tite contact-title">
     <div class="col-md-12 text-center">
         <h1 class="main-title">
+            <img class="contact-us-img" src="<?php echo $vectors; ?>/contact-us.png" alt="">
             <span class='eskelah undelined'>
                 تواصل معنا
             </span>
         </h1>
-        <h3 class="col-md-12 text-center">
+        <h3 class="col-md-12 text-center light">
             ملاحو إسكلة رهن إشارتك!
         </h3>
     </div>
@@ -63,37 +112,44 @@ span.iconic:hover {
 </div>
 </div>
 
+<section class="map-section">
+    <div class="container">
+        <div class="col-md-12">
+            <a href='javascript:;' data-toggle="modal" data-target="#MAPMODAL"><img class="eskelah-map"
+                    src="<?php echo $vectors; ?>/map1.png" alt=""></a>
+        </div>
+        <div class="col-md-12">
+            <a href='javascript:;' class="open-cart" data-toggle="modal" data-target="#MAPMODAL"> <span>احصل على
+                    الوجهة</span></a>
+        </div>
+    </div>
+</section>
+
 <section class="contactInfo">
-    <div class="col-md-10 col-md-offset-1 text-center">
-        <div class="col-md-3">
-            <span class="iconic"><img src="<?php echo $vectors; ?>/contact/3.png" alt=""></span>
-            <h1 class="title">البريد الإلكتروني</h1>
-            <p class="desc nexa">info@eskelah.com</p>
-            <a href="mailto:info@eskelah.com"><span>تواصل معنا</span></a>
+    <div class="container">
+        <div class="col-md-12 text-center">
+            <div class="col-md-4">
+                <span class="iconic"><img src="<?php echo $vectors; ?>/contact/email.svg" alt=""></span>
+                <h1 class="title">البريد الإلكتروني</h1>
+                <p class="desc nexa">info@eskelah.com</p>
+                <a href="mailto:info@eskelah.com"><span>تواصل معنا</span></a>
 
-        </div>
-        <div class="col-md-3">
-            <span class="iconic"><img src="<?php echo $vectors; ?>/contact/4.png" alt=""></span>
-            <h1 class="title">الهاتف</h1>
-            <p class="desc nexa" dir='ltr'>+966567173705</p>
+            </div>
+            <div class="col-md-4">
+                <span class="iconic"><img src="<?php echo $vectors; ?>/contact/phone.svg" alt=""></span>
+                <h1 class="title">الهاتف</h1>
+                <p class="desc nexa" dir='ltr'>+966567173705</p>
 
-            <a href='tel:+966567173705'> <span>اتصل بنا</span></a>
-
-
-        </div>
-        <div class="col-md-3">
-            <span class="iconic"><img src="<?php echo $vectors; ?>/contact/2.png" alt=""></span>
-            <h1 class="title">اوقات العمل</h1>
-            <p class="desc">من السبت إلى الخميس</p>
-            <span class="raleway "> 10AM-6PM <span>
-        </div>
-        <div class="col-md-3">
-            <span class="iconic"><img src="<?php echo $vectors; ?>/contact/1.png" alt=""></span>
-            <h1 class="title">العنوان</h1>
-            <p class="desc">السعودية ، جدة</p>
+                <a href='tel:+966567173705'> <span>اتصل بنا</span></a>
 
 
-            <a href='javascript:;' data-toggle="modal" data-target="#MAPMODAL"> <span>جدنا على الخريطة</span></a>
+            </div>
+            <div class="col-md-4">
+                <span class="iconic"><img src="<?php echo $vectors; ?>/contact/time.svg" alt=""></span>
+                <h1 class="title">اوقات العمل</h1>
+                <p class="desc">من السبت إلى الخميس</p>
+                <span class="raleway "> 10AM-6PM <span>
+            </div>
         </div>
     </div>
 </section>

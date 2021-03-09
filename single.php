@@ -23,7 +23,7 @@
 
 <style>
 .no-post-thumbnail.text-center {
-    background: #ffbe2e;
+    background: #fdbd2e;
     height: 150px;
     text-align: center;
     color: white;
