@@ -29,16 +29,18 @@
                     line-height: 22px;
                 }
 
+
                 .showreal {
                     text-transform: uppercase !important;
                     font-family: 'Nexa';
                 }
 
+                /*
                 section.main-hero {
                     height: inherit !important;
                     padding-bottom: 100px;
-                }
-
+                }*/
+                /*
                 section.maintestimenials {
                     margin-top: -60px !important;
                     padding-bottom: 20px;
@@ -49,7 +51,7 @@
                 .hero-content {
                     margin-top: 110px;
                 }
-
+                */
                 section.why-esklah {
                     padding-top: 40px !important;
                     padding-bottom: 70px !important;
@@ -254,7 +256,20 @@
                     <h2>المحلية</h2>
                 </div>
                 <div class="content">
-                    يفهم طاقم عملنا<br> البيئة السعودية جيدا،<br> فهو منها و لها يعمل!
+                    يفهم طاقم عملنا
+                    البيئة
+
+
+                    <br>
+                    جيدا ،السعودية
+                    فهو منها !
+
+
+
+                    <br>
+                    و لها يعمل
+
+
                 </div>
             </div>
         </div>
@@ -333,9 +348,22 @@
                     </div>
                     <!-- end sales-team -->
                 </div>
+
             </div>
 
             <div class="row team-row" style="margin-top: 20px;">
+
+                <div class="team-col col-md-2">
+                    <div class="sales-team">
+                        <figure><img src="<?php echo $vectors ?>/team/Saeed.jpg" alt="Saeed"></figure>
+                        <div class="infos">
+                            <h6>سعيد قايد</h6>
+                            <small>مدير إنتاج</small>
+                        </div>
+                        <!-- end infos -->
+                    </div>
+                    <!-- end sales-team -->
+                </div>
 
                 <div class="team-col col-md-2">
                     <div class="sales-team">
