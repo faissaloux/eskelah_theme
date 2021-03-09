@@ -83,7 +83,7 @@
         <div class="number_numbers">
             <div class="col-md-12 auto-center text-center" style="position: relative;">
                 <div class="col-md-4">
-                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>about/qualitites2.svg">
                     <span class="numbered raleway">1</span>
                     <div class="qualities-text">
                         <h2>التحضير</h2>
@@ -94,7 +94,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>about/qualitites2.svg">
                     <span class="numbered raleway">2</span>
                     <div class="qualities-text">
                         <h2>الإنجاز</h2>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img class="quanlities-img" src="<?php echo $vectors; ?>/about/qualitites.svg">
+                    <img class="quanlities-img" src="<?php echo $vectors; ?>about/qualitites2.svg">
                     <span class="numbered raleway">3</span>
                     <div class="qualities-text">
                         <h2>النجاح</h2>
