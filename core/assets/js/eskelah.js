@@ -282,16 +282,6 @@ jQuery( document ).on( 'submit', '#contactForm', function(event) {
   
 });          
 
-new TypeIt("#type", {
-    speed: 75,
-    loop: true
-}).type(" 60", {delay: 300})
-.delete(null, {delay: 1000})
-.type(" 70", {delay: 300})
-.delete(null, {delay: 1000})
-.type(" 80", {delay: 300})
-.go();
-
     $(window).scroll(()=>{
         if($(window).scrollTop() >= 105){
             $("header").css({
@@ -344,7 +334,18 @@ new TypeIt("#type", {
         }
     });
 
+
 });
+
+new TypeIt("#type", {
+    speed: 75,
+    loop: true
+    }).type(" 60", {delay: 300})
+    .delete(null, {delay: 1000})
+    .type(" 70", {delay: 300})
+    .delete(null, {delay: 1000})
+    .type(" 80", {delay: 300})
+    .go();
 
 
     let burger = document.getElementById('burger'),
