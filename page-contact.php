@@ -64,6 +64,14 @@ iframe {
 span.iconic {
     background: initial;
 }
+
+.contactForm-contactPage {
+    margin-top: 100px;
+}
+
+section.about-page-tite.contact-title {
+    margin-bottom: 10px;
+}
 </style>
 
 <!-- جلب محتوى الهيدر -->
@@ -89,8 +97,8 @@ span.iconic {
 
 
 <!-- Modal -->
-<div class="modal fade" id="MAPMODAL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
+<div class="modal fade bd-example-modal-lg" id="MAPMODAL" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
@@ -147,7 +155,7 @@ span.iconic {
             <div class="col-md-4">
                 <span class="iconic"><img src="<?php echo $vectors; ?>/contact/time.svg" alt=""></span>
                 <h1 class="title">اوقات العمل</h1>
-                <p class="desc">من السبت إلى الخميس</p>
+                <p class="desc light">من السبت إلى الخميس</p>
                 <span class="raleway "> 10AM-6PM <span>
             </div>
         </div>
@@ -166,7 +174,7 @@ span.iconic {
         <div class="contactForm-contactPage">
 
             <h3>تواصل معنا</h3>
-            <h4>سنكون سعداء بتواصلك معنا</h4>
+            <h4 class="light">سنكون سعداء بتواصلك معنا</h4>
 
 
 
