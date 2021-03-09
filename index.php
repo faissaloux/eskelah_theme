@@ -29,18 +29,16 @@
                     line-height: 22px;
                 }
 
-
                 .showreal {
                     text-transform: uppercase !important;
                     font-family: 'Nexa';
                 }
 
-                /*
                 section.main-hero {
                     height: inherit !important;
                     padding-bottom: 100px;
-                }*/
-                /*
+                }
+
                 section.maintestimenials {
                     margin-top: -60px !important;
                     padding-bottom: 20px;
@@ -51,7 +49,7 @@
                 .hero-content {
                     margin-top: 110px;
                 }
-                */
+
                 section.why-esklah {
                     padding-top: 40px !important;
                     padding-bottom: 70px !important;
@@ -112,7 +110,7 @@
                 <div class="about-left">
                     <h3 class="about-left-title">نبحر لالتقاط الكنوز!</h3>
                     <h5 class="about-left-subtitle">نحن هنا لركوب موجة جديدة</h5>
-                    <p class="about-left-text">
+                    <p class="about-left-text light">
                         نصنع في إسكلة حلولا متكاملة من خدمات الإنتاج المرئي و التسويق الرقمي و تطوير الهويات التجارية،
                         من البحث و الإعداد إلى الإنتاج و الإطلاق!
                     </p>
@@ -256,20 +254,7 @@
                     <h2>المحلية</h2>
                 </div>
                 <div class="content">
-                    يفهم طاقم عملنا
-                    البيئة
-
-
-                    <br>
-                    جيدا ،السعودية
-                    فهو منها !
-
-
-
-                    <br>
-                    و لها يعمل
-
-
+                    يفهم طاقم عملنا<br> البيئة السعودية جيدا،<br> فهو منها و لها يعمل!
                 </div>
             </div>
         </div>
@@ -297,7 +282,7 @@
     <div class="container">
         <div class="title-section text-center">
             <h2>فريق اسكلة</h2>
-            <h3>جنود الخفاء الذي يخرجون الإبداع الى أرض الواقع</h3>
+            <h3 class="light">جنود الخفاء الذي يخرجون الإبداع الى أرض الواقع</h3>
         </div>
         <div class="row">
             <div class="row team-row">
@@ -306,7 +291,7 @@
                         <figure><img src="<?php echo $vectors ?>/team/Abdullah.jpg" alt="Abdullah"></figure>
                         <div class="infos">
                             <h6>عبد الله التركي</h6>
-                            <small>المؤسس و المدير التنفيذي</small>
+                            <small class="light">المؤسس و المدير التنفيذي</small>
                         </div>
                         <!-- end infos -->
                     </div>
@@ -318,7 +303,7 @@
                         <figure><img src="<?php echo $vectors ?>/team/Ola.jpg" alt="Ola"></figure>
                         <div class="infos">
                             <h6>علا عامر</h6>
-                            <small>مدير قسم التسويق الرقمي</small>
+                            <small class="light">مدير قسم التسويق الرقمي</small>
                         </div>
                         <!-- end infos -->
                     </div>
@@ -330,7 +315,7 @@
                         <figure><img src="<?php echo $vectors ?>/team/Bassam.jpg" alt="Bassam"></figure>
                         <div class="infos">
                             <h6>بسام الشرعبي</h6>
-                            <small>مدير قسم الإنتاج المرئي</small>
+                            <small class="light">مدير قسم الإنتاج المرئي</small>
                         </div>
                         <!-- end infos -->
                     </div>
@@ -342,13 +327,12 @@
                         <figure><img src="<?php echo $vectors ?>/team/Bayader.jpg" alt="Bayader"></figure>
                         <div class="infos">
                             <h6>بيادر ثامر</h6>
-                            <small>مدير محتوى</small>
+                            <small class="light">مدير محتوى</small>
                         </div>
                         <!-- end infos -->
                     </div>
                     <!-- end sales-team -->
                 </div>
-
             </div>
 
             <div class="row team-row" style="margin-top: 20px;">
@@ -358,19 +342,7 @@
                         <figure><img src="<?php echo $vectors ?>/team/Saeed.jpg" alt="Saeed"></figure>
                         <div class="infos">
                             <h6>سعيد قايد</h6>
-                            <small>مدير إنتاج</small>
-                        </div>
-                        <!-- end infos -->
-                    </div>
-                    <!-- end sales-team -->
-                </div>
-
-                <div class="team-col col-md-2">
-                    <div class="sales-team">
-                        <figure><img src="<?php echo $vectors ?>/team/Saeed.jpg" alt="Saeed"></figure>
-                        <div class="infos">
-                            <h6>سعيد قايد</h6>
-                            <small>مدير إنتاج</small>
+                            <small class="light">مدير إنتاج</small>
                         </div>
                         <!-- end infos -->
                     </div>
@@ -382,7 +354,7 @@
                         <figure><img src="<?php echo $vectors ?>/team/default-female-avatar.jpg" alt="Ruba"></figure>
                         <div class="infos">
                             <h6>ربى الغامدي</h6>
-                            <small>مدير مشاريع</small>
+                            <small class="light">مدير مشاريع</small>
                         </div>
                         <!-- end infos -->
                     </div>
@@ -393,8 +365,8 @@
                     <div class="sales-team sales-team-new" id="sendcv">
                         <div class="infos new-member">
                             <h6>
-                                أنت<br>
-                                أرسل لنا سيرتك الذاتية
+                                <span class="you">أنت</span><br>
+                                <span class="text light">أرسل لنا سيرتك الذاتية</span>
                             </h6>
                         </div>
                         <!-- end infos -->

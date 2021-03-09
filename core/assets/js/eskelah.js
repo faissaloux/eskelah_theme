@@ -91,27 +91,24 @@ $this.addClass('englishme');
     
     
     $('.owl-carousel').owlCarousel({
-    loop:true,
-        rtl:true,
-            autoplay:true,
-
-   autoplayTimeout:2000,
-    autoplayHoverPause:true,
-   
-    margin:10,
- 
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
+        loop:true,
+        autoplay:true,
+        rtl: false,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        margin:10,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
         }
-    }
-});
+    });
  });
 
 
@@ -318,9 +315,19 @@ jQuery( document ).on( 'submit', '#contactForm', function(event) {
                                                         useGrouping: true
                                                         });
 
-    window.addEventListener("scroll", function() {
-        var elementTarget = document.getElementById("counters-eskelah");
-        if (window.scrollY > (elementTarget.offsetTop - elementTarget.offsetHeight)) {
+
+    $.fn.isInViewport = function() {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+        
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+        
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+        
+    $(window).on('resize scroll', function() {
+        if ($('#counters-eskelah').isInViewport()) {
             firstCounter.start();
             secondCounter.start();
             thirdCounter.start();
