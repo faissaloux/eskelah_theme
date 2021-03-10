@@ -38428,3 +38428,30 @@ i.fa.fa-arrow-right {
 .social-media-icon:hover a{
     animation: fadeIn 1s linear !important;
 }
+
+.serviceButton a{
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.serviceButton a::after{
+    content: '';
+    position: absolute;
+    width: 230px;
+    top: -1px;
+    bottom: -2px;
+    right: -230px;
+    background-color: #000;
+    z-index: -1;
+}
+
+.serviceButton a:hover{
+    color: #FFF;
+    border: none;
+}
+
+.serviceButton a:hover::after{
+    animation: rightToLeft .5s;
+    right: 0;
+}
