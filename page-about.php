@@ -210,6 +210,14 @@
             </div>
         </div>
 
+        <div class="col-md-12">
+            <div class="icon-box">
+                <div class="content text-center" style="font-size: 20px; margin-top: 50px;">
+                    * هذه النتائج مرتبطة بك. كشريك يعاوننا على إنجاحها!
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 

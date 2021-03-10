@@ -38416,17 +38416,10 @@ i.fa.fa-arrow-right {
     padding-top: 10px;
 }
 
-@keyframes flip {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 40px;
-    }
-}
 
 .social-media-icon:hover a{
-    animation: fadeIn 1s linear !important;
+    animation: sweep .2s linear !important;
+    width: 100px;
 }
 
 .serviceButton a{
