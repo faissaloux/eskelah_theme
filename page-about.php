@@ -176,7 +176,7 @@
 <section class="results-eskelah" id="counters-eskelah">
     <div class="container">
         <div class="title-section text-center">
-            <h2>ما هي النتائج المتوقعة من عملك معنا<span class="nexa" id="type"></span>؟</h2>
+            <h2> ما هي النتائج المتوقعة من عملك معنا بنسبة<span class="nexa" id="type"></span>؟</h2>
             <span class="diviWhy"></span>
         </div>
         <div class="col-md-4">
@@ -211,7 +211,15 @@
                     <h2>التطور</h2>
                 </div>
                 <div class="content light">
-                    نعمل دائما على تطوير ذهورك و علاقتك مع فئتك المستهدفة. لتضمن فهمهم لخدماتك و تفاعلهم مع رسائلك.
+                    نعمل دائما على تطوير ظهورك و علاقتك مع فئتك المستهدفة. لتضمن فهمهم لخدماتك و تفاعلهم مع رسائلك.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-12">
+            <div class="icon-box">
+                <div class="content text-center" style="font-size: 20px; margin-top: 50px;">
+                    * هذه النتائج مرتبطة بك. كشريك يعاوننا على إنجاحها!
                 </div>
             </div>
         </div>

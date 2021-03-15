@@ -16,7 +16,7 @@
         top: -29px;
     }
 
-            .service-section:nth-child(even) {
+    .service-section:nth-child(even) {
         background: #FAFBFD;
     }
 </style>
@@ -104,7 +104,7 @@
         </div>
         </div>
     </section>
-          <div class="col-md-12 text-center">
+    <div class="col-md-12 text-center">
         <div class="button-service-contact">
             <a href='javascript:;' id="demandeNow" class="btn btn-call-to-action">
                أطلب الخدمة الآن
