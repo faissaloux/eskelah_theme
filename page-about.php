@@ -132,6 +132,7 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="heading">
+                    <img class="icon-about" src="<?php echo $vectors; ?>about/icon4.png">
                     <h2>نتحدث بلسان عملائك</h2>
                 </div>
                 <div class="content light">
@@ -145,6 +146,7 @@
             <div class="icon-box">
                 <div class="icon">
                     <div class="heading">
+                        <img class="icon-about" src="<?php echo $vectors; ?>about/icon5.png">
                         <h2>تشطح وفق الأهداف</h2>
                     </div>
                     <div class="content light">
@@ -158,6 +160,7 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="heading">
+                    <img class="icon-about" src="<?php echo $vectors; ?>about/icon6.png">
                     <h2>القيمة أولا و أخيرا</h2>
                 </div>
                 <div class="content light">
@@ -179,6 +182,7 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="heading">
+                    <img class="icon-about" src="<?php echo $vectors; ?>about/icon1.png">
                     <h2>التأسيس</h2>
                 </div>
                 <div class="content light">
@@ -190,6 +194,7 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="heading">
+                    <img class="icon-about" src="<?php echo $vectors; ?>about/icon2.png">
                     <h2>الإستمرارية</h2>
                 </div>
                 <div class="content light">
@@ -202,6 +207,7 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="heading">
+                    <img class="icon-about" src="<?php echo $vectors; ?>about/icon3.png">
                     <h2>التطور</h2>
                 </div>
                 <div class="content light">
