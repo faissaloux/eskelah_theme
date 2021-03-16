@@ -1,4 +1,4 @@
-@import 'animations.css';
+    @import 'animations.css';
 @font-face {
     font-family: 'NexaRegular';
     src: url('fonts/NexaRegular.woff2') format('woff2'), url('fonts/NexaRegular.woff') format('woff');
@@ -37766,11 +37766,11 @@ footer .title {
     z-index: -1;
 }
 
-.rightToLeft-effect:hover{
+.rightToLeft-effect:hover {
     color: #FFF;
 }
 
-.rightToLeft-effect:hover::after{
+.rightToLeft-effect:hover::after {
     animation: rightToLeft .5s;
     right: 0;
 }
@@ -37781,12 +37781,12 @@ footer .title {
     color: #FFF;
 }
 
-.footer-rightToLeft-effect{
+.footer-rightToLeft-effect {
     position: relative;
     overflow: hidden;
 }
 
-.footer-rightToLeft-effect::after{
+.footer-rightToLeft-effect::after {
     content: '';
     position: absolute;
     width: 224px;
@@ -37797,7 +37797,7 @@ footer .title {
     z-index: -1;
 }
 
-.footer-rightToLeft-effect:hover::after{
+.footer-rightToLeft-effect:hover::after {
     animation: rightToLeft .5s;
     right: 0;
 }
@@ -38416,7 +38416,6 @@ i.fa.fa-arrow-right {
     padding-top: 10px;
 }
 
-<<<<<<< HEAD
 .whois h2.text-center:after {
     content: '';
     display: block;
@@ -38431,37 +38430,30 @@ i.fa.fa-arrow-right {
 
 img.icon-about {
     height: 100px;
-=======
-
-.social-media-icon:hover a{
-    animation: sweep .2s linear !important;
-    width: 100px;
-}
-
-.serviceButton a{
-    position: relative;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.serviceButton a::after{
-    content: '';
-    position: absolute;
-    width: 230px;
-    top: -1px;
-    bottom: -2px;
-    right: -230px;
-    background-color: #000;
-    z-index: -1;
-}
-
-.serviceButton a:hover{
-    color: #FFF;
-    border: none;
-}
-
-.serviceButton a:hover::after{
-    animation: rightToLeft .5s;
-    right: 0;
->>>>>>> 066ea9457c2bd5c632dbdc4b20fb807c8f219b6a
-}
+    .social-media-icon:hover a {
+        animation: sweep .2s linear !important;
+        width: 100px;
+    }
+    .serviceButton a {
+        position: relative;
+        overflow: hidden;
+        z-index: 2;
+    }
+    .serviceButton a::after {
+        content: '';
+        position: absolute;
+        width: 230px;
+        top: -1px;
+        bottom: -2px;
+        right: -230px;
+        background-color: #000;
+        z-index: -1;
+    }
+    .serviceButton a:hover {
+        color: #FFF;
+        border: none;
+    }
+    .serviceButton a:hover::after {
+        animation: rightToLeft .5s;
+        right: 0;
+    }

@@ -58,6 +58,54 @@
                 section.service_home.circle_shape.right_shape {
                     padding-top: 60px;
                 }
+
+                span.testimonial-title {
+                    font-weight: 900;
+                }
+
+                h5.raleway a {
+                    font-family: 'Nexa';
+                    font-weight: 100;
+                }
+
+
+                /******/
+                img.index-heart-img {
+                    width: 100px;
+                    bottom: 50px;
+                    position: relative !important;
+                    animation: none !important;
+                }
+
+                img.index-creative-img {
+                    margin-top: 100px;
+                    width: 100px;
+                    left: 0;
+                    bottom: 130px;
+                    position: relative !important;
+                    animation: none !important;
+                }
+
+                img.index-rot-img {
+                    width: 110px;
+                    bottom: 15px;
+                    position: relative;
+                    animation: none !important;
+                }
+
+                img.index-rot-img {
+                    width: 95px;
+                    bottom: 30px;
+                }
+
+                .sales-team figure img[alt="Ruba"] {
+                    padding: 20px;
+                    padding-bottom: 0;
+                }
+
+                .title-section.text-center {
+                    margin-bottom: 70px;
+                }
                 </style>
                 <div class="logo-phone-main hidden-md hidden-lg hidden-sm">
                     <img class='dlkdlkdldkldkdlkd' src="<?php echo $vectors; ?>logo-main-header.png" alt="">
@@ -74,7 +122,8 @@
                     هذا ما ستأخذه من عملك معنا في الإنتاج المرئي و التسويق الرقمي
                 </p>
                 <div class="take_action">
-                    <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">شاهد <span class="showreal">show real</span></a>
+                    <a href="javascript:;" data-toggle="modal" data-target="#video_show" class="btn">شاهد <span
+                            class="showreal">show real</span></a>
                     <a id="demandeNow" href="javascript:;" class="btn">اطلب عرض</a>
                 </div>
             </div>
@@ -225,13 +274,13 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="icon">
-                    <img class="index-creative-img" src="<?php echo $vectors; ?>/home/a1.png" alt="" />
+                    <img class="index-creative-img" src="<?php echo $vectors; ?>/home/bola.png" alt="" />
                 </div>
                 <div class="heading">
                     <h2>الإبداع</h2>
                 </div>
                 <div class="content">
-                    التجديد و الإبتكار من شيمنا<br> و اتقائهما بالهدف و الأثر أصل<br> نحرص عليه!
+                    التّجديد والابتكار من شيمنا<br> والتقاهما بالهدف والأثر أصل<br> نحرص عليه!
                 </div>
             </div>
         </div>
@@ -239,13 +288,13 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="icon">
-                    <img class="index-rot-img" src="<?php echo $vectors; ?>/home/a2.png" alt="" />
+                    <img class="index-rot-img" src="<?php echo $vectors; ?>/home/bottle.png" alt="" />
                 </div>
                 <div class="heading">
-                    <h2>المحلية</h2>
+                    <h2>المحليّة</h2>
                 </div>
                 <div class="content">
-                    يفهم طاقم عملنا<br> البيئة السعودية جيدا،<br> فهو منها و لها يعمل!
+                    يفهم طاقم عملنا<br> البيئة السعودية جيدًا،<br> فهو منها ولها يعمل!
                 </div>
             </div>
         </div>
@@ -253,14 +302,14 @@
         <div class="col-md-4">
             <div class="icon-box">
                 <div class="icon">
-                    <img class="index-heart-img" src="<?php echo $vectors; ?>/home/a3.png" alt=""
+                    <img class="index-heart-img" src="<?php echo $vectors; ?>/home/heart.svg" alt=""
                         style="margin-top: 24px;" />
                 </div>
                 <div class="heading">
-                    <h2>الشغف</h2>
+                    <h2>الشّغف</h2>
                 </div>
                 <div class="content">
-                    قادنا شغفنا إلى تحديات <br>كبيرة، و كانت ثقة شركائنا<br> و مهارات طاقمنا مصدر نجاحنا!
+                    قادنا شغفنا إلى تحدّيات<br>كبيرة، وكانت ثقة شركائنا<br> ومهارات طاقمنا مصدر نجاحنا!
                 </div>
             </div>
         </div>
@@ -342,7 +391,7 @@
 
                 <div class="team-col col-md-2">
                     <div class="sales-team">
-                        <figure><img src="<?php echo $vectors ?>/team/default-female-avatar.jpg" alt="Ruba"></figure>
+                        <figure><img src="<?php echo $vectors ?>/team/avatarw.png" alt="Ruba"></figure>
                         <div class="infos">
                             <h6>ربى الغامدي</h6>
                             <small class="light">مدير مشاريع</small>
@@ -476,7 +525,7 @@
                                     <div class="overview">
 
                                         <div class="details light">
-                                            <span><?php echo $title[0] ?> </span><br>
+                                            <span class="testimonial-title"><?php echo $title[0] ?> </span><br>
                                             <span><?php echo $title[1] ?> </span>
                                         </div>
                                     </div>
