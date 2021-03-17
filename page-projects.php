@@ -37,6 +37,33 @@
         font-size: 38px;
     }
 }
+
+section.service-tite.projects_title .col-md-6.col-md-offset-3.col-sm-12.text-center {
+    display: inline-grid;
+}
+
+img.icon-chall {
+    width: 150px;
+    margin: 0 auto;
+}
+
+section.service-tite.projects_title .page-title {
+    padding-top: 20px;
+    padding-right: 0;
+    text-align: center !important;
+}
+
+.col-md-6.col-md-offset-3.col-sm-12.text-center:after {
+    display: none;
+}
+
+.page-title h3 {
+    text-align: center;
+}
+
+.categories-switchers.flex-row {
+    width: 20%;
+}
 </style>
 <?php  
         $args = array(
@@ -53,7 +80,7 @@
 <!-- about us eskelah team -->
 <section class="service-tite projects_title">
     <div class="col-md-6 col-md-offset-3 col-sm-12 text-center">
-        <img src="<?php echo $vectors; ?>/project/Groupe%2061.png" alt="">
+        <img class="icon-chall" src="<?php echo $vectors; ?>/snnn.png" alt="">
         <div class="page-title">
             <h1 class="main-title">
                 <span>في</span>
