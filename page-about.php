@@ -62,7 +62,7 @@
                         الملاحة البحرية ليست نكتة
                     </p>
                     <a href='https://eskelah.com/wp-content/uploads/2019/05/Eskelah-Profile.pdf'
-                        class="btn DownloadBookButton">تحميل دفتر الملاحة البحرية</a>
+                        class="btn DownloadBookButton pdf-popup">تحميل دفتر الملاحة البحرية</a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -279,6 +279,23 @@
     </div>
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css" />
+<style>
+.mfp-iframe-holder .mfp-content {
+    max-width: 80%;
+    z-index: 99999999999999999;
+}
+</style>
+<script>
+(function($) {
+    $(document).ready(function() {
+        $('.pdf-popup').magnificPopup({
+            type: 'iframe',
+        });
+    });
+}(jQuery));
+</script>
 
 <?php get_main_footer(); ?>
 <?php get_footer(); ?>

@@ -99,7 +99,7 @@
                 }
 
                 .sales-team figure img[alt="Ruba"] {
-                    padding: 20px;
+                    /*padding: 20px;*/
                     padding-bottom: 0;
                 }
 
