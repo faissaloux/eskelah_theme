@@ -50,7 +50,7 @@
             نعمل كما يعمل ملاحو مقصورة، في تحديد الوجهات<br>
             الصحيحة، عبر هذه الخدمات:
         </h4>
-        <!--img class="header-serv" src="<?php echo $vectors; ?>/services.jpg" /-->
+        <img class="header-serv" src="<?php echo $vectors; ?>/services.jpg" />
     </div>
 </section>
 
